@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - {{ SITENAME }}{% endblock %}
+
+{% block extra_head %}
+<style>
+.whatsapp-button,
+.whatsapp-button-large {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    margin: 1rem 0;
+}
+
+.whatsapp-button:hover,
+.whatsapp-button-large:hover {
+    background: #128C7E;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+}
+
+.whatsapp-button-large {
+    font-size: 1.2rem;
+    padding: 1.5rem 3rem;
+}
+
+.whatsapp-icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<article class="page contact-page">
+    <div class="container">
+        <header class="page-header">
+            <h1>{{ page.title }}</h1>
+        </header>
+        
+        <div class="page-content">
+            {{ page.content }}
+        </div>
+    </div>
+</article>
+{% endblock %}

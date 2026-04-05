@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+    <meta name="description" content="{{ SITE_DESCRIPTION }}">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ SITEURL }}/favicon.ico">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="{{ SITEURL }}/">
+                    <h1>🎵 {{ SITENAME }}</h1>
+                </a>
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                {% for title, link in MENUITEMS %}
+                <li><a href="{{ SITEURL }}{{ link }}">{{ title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>{{ SITENAME }}</h3>
+                    <p>{{ SITE_DESCRIPTION }}</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        {% for title, link in MENUITEMS %}
+                        <li><a href="{{ SITEURL }}{{ link }}">{{ title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>📧 {{ EMAIL }}</li>
+                        <li>📞 {{ PHONE }}</li>
+                        <li>📍 {{ ADDRESS }}</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        {% for name, link in SOCIAL %}
+                        <a href="{{ link }}" target="_blank" rel="noopener">{{ name }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 {{ SITENAME }}. All rights reserved.</p>
+                <p>Made with ❤️ using <a href="https://getpelican.com" target="_blank">Pelican</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/{{ WHATSAPP_NUMBER }}?text={{ WHATSAPP_MESSAGE|urlencode }}" 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener"
+       title="Chat on WhatsApp">
+        <svg viewBox="0 0 32 32" width="32" height="32">
+            <path fill="currentColor" d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 7.933-2.127c2.42 1.37 5.173 2.127 8.067 2.127 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.467c-2.482 0-4.908-0.646-7.07-1.87l-0.507-0.292-5.268 1.412 1.43-5.316-0.322-0.532c-1.33-2.199-2.030-4.713-2.030-7.336 0-7.505 6.095-13.6 13.6-13.6s13.6 6.095 13.6 13.6c0 7.505-6.095 13.6-13.6 13.6zM21.213 18.56c-0.368-0.186-2.178-1.076-2.515-1.197-0.338-0.122-0.583-0.186-0.828 0.186s-0.952 1.197-1.167 1.443c-0.215 0.245-0.43 0.276-0.798 0.092-0.368-0.186-1.555-0.573-2.96-1.825-1.094-0.975-1.833-2.178-2.048-2.546s-0.023-0.571 0.162-0.755c0.167-0.166 0.368-0.43 0.552-0.645s0.245-0.368 0.368-0.614c0.122-0.245 0.061-0.46-0.031-0.645s-0.828-1.995-1.135-2.731c-0.297-0.714-0.599-0.617-0.828-0.628-0.214-0.011-0.46-0.013-0.706-0.013s-0.645 0.092-0.983 0.46c-0.338 0.368-1.289 1.258-1.289 3.067s1.32 3.559 1.504 3.805c0.186 0.245 2.573 3.944 6.239 5.529 0.872 0.378 1.553 0.604 2.084 0.773 0.876 0.277 1.674 0.238 2.303 0.144 0.703-0.105 2.178-0.89 2.485-1.75s0.307-1.596 0.215-1.75c-0.092-0.153-0.338-0.245-0.706-0.43z"/>
+        </svg>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="{{ SITEURL }}/theme/js/main.js"></script>
+</body>
+</html>
