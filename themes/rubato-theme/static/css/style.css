@@ -167,14 +167,15 @@ a:hover {
 }
 
 .btn-secondary {
-    background: transparent;
+    background: white;
     color: var(--primary-color);
-    border-color: var(--primary-color);
+    border-color: white;
 }
 
 .btn-secondary:hover {
-    background: var(--primary-color);
+    background: transparent;
     color: white;
+    border-color: white;
 }
 
 .btn-large {
