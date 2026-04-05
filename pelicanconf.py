@@ -144,5 +144,5 @@ MENUITEMS = [
 if ENABLE_PRICING:
     MENUITEMS.insert(3, ('Pricing', '/pricing.html'))
 
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+# Use relative URLs for portability across different domains
+RELATIVE_URLS = True
