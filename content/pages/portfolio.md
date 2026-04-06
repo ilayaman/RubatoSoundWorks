@@ -54,8 +54,10 @@ Let's create something amazing together!
 
 ---
 
-**Note:** All portfolio content is managed in `pelicanconf.py`:
-- Edit `FEATURED_PROJECTS` to add/remove projects (just change YouTube video IDs!)
-- Edit `STUDIO_PHOTOS` to add/remove studio images (add images to `content/images/` folder)
-- Edit `TESTIMONIALS` to add/remove client testimonials
-- **Add as many as you want - the page adjusts automatically!**
+<!--
+Note: All portfolio content is managed in pelicanconf.py:
+- Edit FEATURED_PROJECTS to add/remove projects (just change YouTube video IDs!)
+- Edit STUDIO_PHOTOS to add/remove studio images (add images to content/images/ folder)
+- Edit TESTIMONIALS to add/remove client testimonials
+- Add as many as you want - the page adjusts automatically!
+-->

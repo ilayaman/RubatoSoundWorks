@@ -98,4 +98,4 @@ Don't hesitate - reach out today and let's discuss how we can bring your project
 
 ---
 
-**Note:** Contact details are configured in `pelicanconf.py`. Update there to change site-wide contact information.
+<!-- Note: Contact details are configured in pelicanconf.py. Update there to change site-wide contact information. -->
