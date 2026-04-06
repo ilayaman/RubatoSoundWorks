@@ -10,90 +10,39 @@ Check out some of our recent projects and client work. We're proud of the divers
 
 ## Featured Projects
 
-### Project 1: [Your Project Name]
-**Type:** Music Production | Song Recording  
-**Artist:** Artist Name
+{% for project in FEATURED_PROJECTS %}
+### {{ project.title }}
+**Type:** {{ project.type }}
+**Artist/Client:** {{ project.artist }}
 
-A beautiful blend of traditional and contemporary sounds. This project showcased our expertise in live instrument recording and modern production techniques.
+{{ project.description }}
 
-**YouTube Link:**
-<!-- Replace with your actual YouTube video ID -->
+**Watch on YouTube:**
 <div class="video-container">
-    <iframe width="100%" height="400" src="https://www.youtube.com/embed/YOUR_VIDEO_ID_1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="400" src="https://www.youtube.com/embed/{{ project.youtube_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ---
 
-### Project 2: [Short Film Title]
-**Type:** Film Scoring | Sound Design  
-**Director:** Director Name
-
-Original score for an award-winning short film. We created an emotive soundscape that enhanced the storytelling.
-
-**YouTube Link:**
-<!-- Replace with your actual YouTube video ID -->
-<div class="video-container">
-    <iframe width="100%" height="400" src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
----
-
-### Project 3: [Album/EP Name]
-**Type:** Mixing and Mastering  
-**Artist:** Artist Name
-
-Full album mixing and mastering project. Delivered punchy, radio-ready tracks with excellent dynamic range.
-
-**YouTube Link:**
-<!-- Replace with your actual YouTube video ID -->
-<div class="video-container">
-    <iframe width="100%" height="400" src="https://www.youtube.com/embed/YOUR_VIDEO_ID_3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
----
-
-### Project 4: [Advertisement/Jingle]
-**Type:** Music Production | Voice Over  
-**Client:** Brand Name
-
-Commercial jingle and voice-over production for a regional advertising campaign.
-
-**YouTube Link:**
-<!-- Replace with your actual YouTube video ID -->
-<div class="video-container">
-    <iframe width="100%" height="400" src="https://www.youtube.com/embed/YOUR_VIDEO_ID_4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
----
+{% endfor %}
 
 ## Studio Photos
 
-<!-- Add your studio photos to content/images/ folder and reference them here -->
+{% for photo in STUDIO_PHOTOS %}
+![{{ photo.alt }}](/images/{{ photo.filename }})
+*{{ photo.caption }}*
 
-![Studio Main Room](/images/studio-1.jpg)
-*Our main recording room*
-
-![Control Room](/images/studio-2.jpg)
-*State-of-the-art control room*
-
-![Vocal Booth](/images/studio-3.jpg)
-*Professional vocal booth*
-
-![Equipment](/images/studio-4.jpg)
-*Industry-standard equipment*
+{% endfor %}
 
 ---
 
 ## Client Testimonials
 
-> "Rubato Sound Works transformed our tracks into professional, radio-ready songs. Highly recommended!"  
-> **- Client Name, Artist**
+{% for testimonial in TESTIMONIALS %}
+> "{{ testimonial.text }}"
+> **- {{ testimonial.author }}, {{ testimonial.role }}**
 
-> "The team's attention to detail and creative input elevated our short film's score to another level."  
-> **- Director Name, Filmmaker**
-
-> "Professional, fast, and affordable. Best music production studio in the area!"  
-> **- Client Name, Music Producer**
+{% endfor %}
 
 ---
 
@@ -105,7 +54,8 @@ Let's create something amazing together!
 
 ---
 
-**Note:** To add your own projects, edit this file (`content/pages/portfolio.md`) and replace:
-1. Project titles and descriptions with your actual work
-2. `YOUR_VIDEO_ID_X` with your actual YouTube video IDs
-3. Add your studio photos to `content/images/` folder and update the image paths
+**Note:** All portfolio content is managed in `pelicanconf.py`:
+- Edit `FEATURED_PROJECTS` to add/remove projects (just change YouTube video IDs!)
+- Edit `STUDIO_PHOTOS` to add/remove studio images (add images to `content/images/` folder)
+- Edit `TESTIMONIALS` to add/remove client testimonials
+- **Add as many as you want - the page adjusts automatically!**

@@ -103,6 +103,79 @@ PRICING_PLANS = [
     },
 ]
 
+# ===== PORTFOLIO DATA (DYNAMIC!) =====
+
+# Featured Projects - Add/remove projects here, they'll automatically show on the portfolio page!
+FEATURED_PROJECTS = [
+    {
+        'title': 'Your Project Name',
+        'type': 'Music Production | Song Recording',
+        'artist': 'Artist Name',
+        'description': 'A beautiful blend of traditional and contemporary sounds. This project showcased our expertise in live instrument recording and modern production techniques.',
+        'youtube_id': 'dQw4w9WgXcQ',  # Replace with actual YouTube video ID
+    },
+    {
+        'title': 'Short Film Title',
+        'type': 'Film Scoring | Sound Design',
+        'artist': 'Director Name',
+        'description': 'Original score for an award-winning short film. We created an emotive soundscape that enhanced the storytelling.',
+        'youtube_id': 'dQw4w9WgXcQ',  # Replace with actual YouTube video ID
+    },
+    {
+        'title': 'Album/EP Name',
+        'type': 'Mixing and Mastering',
+        'artist': 'Artist Name',
+        'description': 'Full album mixing and mastering project. Delivered punchy, radio-ready tracks with excellent dynamic range.',
+        'youtube_id': 'dQw4w9WgXcQ',  # Replace with actual YouTube video ID
+    },
+    # Add more projects here! Just copy the dict structure above
+]
+
+# Studio Photos - Add your studio images here
+STUDIO_PHOTOS = [
+    {
+        'filename': 'studio-1.jpg',
+        'caption': 'Our main recording room',
+        'alt': 'Studio Main Room',
+    },
+    {
+        'filename': 'studio-2.jpg',
+        'caption': 'State-of-the-art control room',
+        'alt': 'Control Room',
+    },
+    {
+        'filename': 'studio-3.jpg',
+        'caption': 'Professional vocal booth',
+        'alt': 'Vocal Booth',
+    },
+    {
+        'filename': 'studio-4.jpg',
+        'caption': 'Industry-standard equipment',
+        'alt': 'Equipment',
+    },
+    # Add more photos here!
+]
+
+# Client Testimonials - Add/remove testimonials dynamically!
+TESTIMONIALS = [
+    {
+        'text': 'Rubato Sound Works transformed our tracks into professional, radio-ready songs. Highly recommended!',
+        'author': 'Client Name',
+        'role': 'Artist',
+    },
+    {
+        'text': 'The team\'s attention to detail and creative input elevated our short film\'s score to another level.',
+        'author': 'Director Name',
+        'role': 'Filmmaker',
+    },
+    {
+        'text': 'Professional, fast, and affordable. Best music production studio in the area!',
+        'author': 'Client Name',
+        'role': 'Music Producer',
+    },
+    # Add more testimonials here! The page will automatically adjust
+]
+
 # Contact Information
 EMAIL = 'inprogress@mail.com'
 PHONE = '+91 70108 62601'
