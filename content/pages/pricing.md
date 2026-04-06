@@ -137,4 +137,5 @@ Every project is unique! For accurate pricing tailored to your specific needs, p
 
 **Note:** Prices are subject to change and may vary based on project complexity, duration, and specific requirements. GST applicable as per law.
 
-**To enable/disable this pricing page:** Edit `pelicanconf.py` and set `ENABLE_PRICING = True` or `False`
+<!-- 
+**To enable/disable this pricing page:** Edit `pelicanconf.py` and set `ENABLE_PRICING = True` or `False` -->

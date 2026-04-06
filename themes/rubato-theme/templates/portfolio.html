@@ -31,6 +31,23 @@
     margin: 1rem 0;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
+
+.project-section {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+.project-section:last-of-type {
+    border-bottom: none;
+}
+
+.testimonial {
+    border-left: 4px solid var(--primary-color);
+    padding-left: 1.5rem;
+    margin: 2rem 0;
+    font-style: italic;
+}
 </style>
 {% endblock %}
 
@@ -38,11 +55,63 @@
 <article class="page portfolio-page">
     <div class="container">
         <header class="page-header">
-            <h1>{{ page.title }}</h1>
+            <h1>Our Work</h1>
         </header>
-        
+
         <div class="page-content">
-            {{ page.content }}
+            <p>Check out some of our recent projects and client work. We're proud of the diverse range of audio we've produced.</p>
+
+            <hr>
+
+            <h2>Featured Projects</h2>
+
+            {% for project in FEATURED_PROJECTS %}
+            <div class="project-section">
+                <h3>{{ project.title }}</h3>
+                <p><strong>Type:</strong> {{ project.type }}</p>
+                <p><strong>Artist/Client:</strong> {{ project.artist }}</p>
+
+                <p>{{ project.description }}</p>
+
+                <p><strong>Watch on YouTube:</strong></p>
+                <div class="video-container">
+                    <iframe width="100%" height="400"
+                            src="https://www.youtube.com/embed/{{ project.youtube_id }}"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            {% endfor %}
+
+            <hr>
+
+            <h2>Studio Photos</h2>
+
+            {% for photo in STUDIO_PHOTOS %}
+            <img src="{{ SITEURL }}/images/{{ photo.filename }}"
+                 alt="{{ photo.alt }}"
+                 class="portfolio-image">
+            <p><em>{{ photo.caption }}</em></p>
+            {% endfor %}
+
+            <hr>
+
+            <h2>Client Testimonials</h2>
+
+            {% for testimonial in TESTIMONIALS %}
+            <blockquote class="testimonial">
+                <p>"{{ testimonial.text }}"</p>
+                <p><strong>- {{ testimonial.author }}, {{ testimonial.role }}</strong></p>
+            </blockquote>
+            {% endfor %}
+
+            <hr>
+
+            <h2>Want to Work With Us?</h2>
+            <p>Let's create something amazing together!</p>
+            <a href="{{ SITEURL }}/contact.html" class="btn btn-primary">Get in Touch</a>
         </div>
     </div>
 </article>

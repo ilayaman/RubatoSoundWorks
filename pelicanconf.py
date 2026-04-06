@@ -11,6 +11,20 @@ PATH = 'content'
 TIMEZONE = 'Asia/Kolkata'
 DEFAULT_LANG = 'en'
 
+# Enable Jinja2 processing in Markdown files (for dynamic content)
+FORMATTED_FIELDS = ['summary', 'description']
+DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'archives']
+
+# Markdown extensions
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+}
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
