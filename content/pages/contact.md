@@ -12,7 +12,7 @@ Ready to start your project? Have questions about our services? We'd love to hea
 
 The fastest way to reach us is through WhatsApp. Click the button below to start a conversation:
 
-<a href="https://wa.me/919876543210?text=Hello!%20I%20would%20like%20to%20inquire%20about%20your%20services." class="whatsapp-button" target="_blank">
+<a href="https://wa.me/{{ WHATSAPP_NUMBER }}?text={{ WHATSAPP_MESSAGE|urlencode }}" class="whatsapp-button" target="_blank">
     <span class="whatsapp-icon">💬</span> Chat on WhatsApp
 </a>
 
@@ -21,12 +21,12 @@ The fastest way to reach us is through WhatsApp. Click the button below to start
 ## Other Ways to Reach Us
 
 ### 📧 Email
-**info@rubatosoundworks.com**
+**{{ EMAIL }}**
 
 For detailed inquiries, project submissions, or file transfers, email is best. We typically respond within 24 hours.
 
 ### 📞 Phone
-**+91 98765 43210**
+**{{ PHONE }}**
 
 Call us during business hours for immediate assistance.
 
@@ -38,10 +38,9 @@ Call us during business hours for immediate assistance.
 
 ## Visit Our Studio
 
-📍 **Address:**  
-Rubato Sound Works  
-[Your Studio Address]  
-[City, State, PIN]
+📍 **Address:**
+{{ SITENAME }}
+{{ ADDRESS }}
 
 **Note:** Studio visits are by appointment only. Please contact us in advance to schedule a visit or studio tour.
 
@@ -93,10 +92,10 @@ Cancellations made 24 hours before the scheduled session receive a full refund o
 
 Don't hesitate - reach out today and let's discuss how we can bring your project to life!
 
-<a href="https://wa.me/919876543210?text=Hello!%20I%20would%20like%20to%20inquire%20about%20your%20services." class="whatsapp-button-large" target="_blank">
+<a href="https://wa.me/{{ WHATSAPP_NUMBER }}?text={{ WHATSAPP_MESSAGE|urlencode }}" class="whatsapp-button-large" target="_blank">
     💬 Start a Conversation on WhatsApp
 </a>
 
 ---
 
-**Note:** Replace the WhatsApp number and contact details in `pelicanconf.py` with your actual information. The number is set to `919876543210` by default.
+**Note:** Contact details are configured in `pelicanconf.py`. Update there to change site-wide contact information.

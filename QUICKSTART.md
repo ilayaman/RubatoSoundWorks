@@ -31,7 +31,7 @@ WHATSAPP_NUMBER = '919876543210'  # ← Change this!
 
 # Line 92-94: Your contact info
 EMAIL = 'info@rubatosoundworks.com'  # ← Change this!
-PHONE = '+91 98765 43210'  # ← Change this!
+PHONE = '+91 70108 62601    '  # ← Change this!
 ADDRESS = 'Your Studio Address, City, State, PIN'  # ← Change this!
 ```
 

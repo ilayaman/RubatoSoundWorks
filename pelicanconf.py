@@ -39,7 +39,7 @@ DEFAULT_PAGINATION = False
 ENABLE_PRICING = True
 
 # WhatsApp Contact Number (with country code, no spaces or special characters)
-WHATSAPP_NUMBER = '919876543210'  # Replace with your actual number
+WHATSAPP_NUMBER = '7010862601'  # Replace with your actual number
 WHATSAPP_MESSAGE = 'Hello! I would like to inquire about your services.'
 
 # Services offered
@@ -104,9 +104,9 @@ PRICING_PLANS = [
 ]
 
 # Contact Information
-EMAIL = 'info@rubatosoundworks.com'
-PHONE = '+91 98765 43210'
-ADDRESS = 'Your Studio Address, City, State, PIN'
+EMAIL = 'inprogress@mail.com'
+PHONE = '+91 70108 62601'
+ADDRESS = 'Zamin Pallavaram, Chennai, Tamil Nadu, 600043'
 
 # Static paths (for images, videos, etc.)
 STATIC_PATHS = ['images', 'extra']
