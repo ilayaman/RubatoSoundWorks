@@ -233,3 +233,4 @@ if ENABLE_PRICING:
 
 # Use relative URLs for portability across different domains
 RELATIVE_URLS = True
+
