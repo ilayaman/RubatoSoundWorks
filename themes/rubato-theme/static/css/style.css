@@ -7,31 +7,32 @@
 
 :root {
     --primary-color: #FF6B6B;
-    --secondary-color: #FF8A80;
-    --accent-color: #FFB5A7;
-    --text-dark: #2B2B2B;
-    --text-light: #7A7A7A;
-    --bg-light: #FFF5F5;
-    --bg-white: #ffffff;
-    --bg-soft: #FFD6D6;
-    --border-color: #FFB5A7;
+    --secondary-color: #FF8E8E;
+    --accent-color: #FFA5A5;
+    --text-dark: #ffffff;
+    --text-light: #E0E0E0;
+    --text-muted: #B0B0B0;
+    --bg-dark: #0A0A0A;
+    --bg-darker: #000000;
+    --bg-card: #1A1A1A;
+    --border-color: #FF6B6B;
     --success-color: #10b981;
     --whatsapp-color: #25D366;
 
     --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     --font-display: 'Playfair Display', Georgia, serif;
 
-    --shadow-sm: 0 1px 2px 0 rgba(255, 107, 107, 0.1);
-    --shadow-md: 0 4px 6px -1px rgba(255, 107, 107, 0.15);
-    --shadow-lg: 0 10px 15px -3px rgba(255, 107, 107, 0.2);
-    --shadow-xl: 0 20px 25px -5px rgba(255, 107, 107, 0.25);
+    --shadow-sm: 0 1px 2px 0 rgba(255, 107, 107, 0.2);
+    --shadow-md: 0 4px 6px -1px rgba(255, 107, 107, 0.3);
+    --shadow-lg: 0 10px 15px -3px rgba(255, 107, 107, 0.4);
+    --shadow-xl: 0 20px 25px -5px rgba(255, 107, 107, 0.5);
 }
 
 body {
     font-family: var(--font-sans);
     line-height: 1.6;
     color: var(--text-dark);
-    background: var(--bg-white);
+    background: var(--bg-darker);
 }
 
 .container {
@@ -78,8 +79,9 @@ a:hover {
 
 /* ===== Navigation ===== */
 .navbar {
-    background: var(--bg-white);
-    box-shadow: var(--shadow-sm);
+    background: var(--bg-darker);
+    box-shadow: 0 2px 8px rgba(255, 107, 107, 0.1);
+    border-bottom: 1px solid rgba(255, 107, 107, 0.2);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -99,6 +101,16 @@ a:hover {
     font-weight: 700;
     color: var(--text-dark);
     text-decoration: none;
+}
+
+.nav-brand .logo {
+    height: 60px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.nav-brand .logo:hover {
+    transform: scale(1.05);
 }
 
 .nav-brand h1 {
@@ -121,7 +133,7 @@ a:hover {
 }
 
 .nav-menu a:hover {
-    background: var(--bg-light);
+    background: var(--bg-card);
     color: var(--primary-color);
 }
 
@@ -251,7 +263,7 @@ section {
 
 /* ===== Services Grid ===== */
 .services-overview {
-    background: var(--bg-light);
+    background: var(--bg-dark);
 }
 
 .services-grid {
@@ -262,9 +274,10 @@ section {
 }
 
 .service-card {
-    background: white;
+    background: var(--bg-card);
     padding: 2rem;
     border-radius: 12px;
+    border: 1px solid rgba(255, 107, 107, 0.2);
     box-shadow: var(--shadow-md);
     transition: all 0.3s ease;
     text-align: center;
@@ -405,8 +418,9 @@ section {
 
 /* ===== Footer ===== */
 .footer {
-    background: var(--text-dark);
+    background: var(--bg-darker);
     color: white;
+    border-top: 1px solid rgba(255, 107, 107, 0.2);
     padding: 3rem 0 1rem;
     margin-top: 4rem;
 }
@@ -522,7 +536,8 @@ section {
         top: 100%;
         left: 0;
         right: 0;
-        background: white;
+        background: var(--bg-darker);
+        border-top: 1px solid rgba(255, 107, 107, 0.2);
         flex-direction: column;
         gap: 0;
         padding: 1rem;
@@ -580,6 +595,10 @@ section {
     .whatsapp-float svg {
         width: 24px;
         height: 24px;
+    }
+
+    .nav-brand .logo {
+        height: 40px;
     }
 }
 

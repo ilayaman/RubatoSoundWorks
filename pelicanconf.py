@@ -93,6 +93,11 @@ SERVICES = [
         'icon': '🎹',
         'description': 'Full music production services from pre-production to final mix.',
     },
+    {
+        'name': 'Acoustic Treatment',
+        'icon': '🔇',
+        'description': 'Professional acoustic treatment solutions for optimal sound quality in your space.',
+    },
 ]
 
 # Pricing Plans (configurable - only shown if ENABLE_PRICING = True)
