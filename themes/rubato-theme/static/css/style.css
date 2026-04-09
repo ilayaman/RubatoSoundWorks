@@ -6,24 +6,25 @@
 }
 
 :root {
-    --primary-color: #2563eb;
-    --secondary-color: #7c3aed;
-    --accent-color: #f59e0b;
-    --text-dark: #1f2937;
-    --text-light: #6b7280;
-    --bg-light: #f9fafb;
+    --primary-color: #FF6B6B;
+    --secondary-color: #FF8A80;
+    --accent-color: #FFB5A7;
+    --text-dark: #2B2B2B;
+    --text-light: #7A7A7A;
+    --bg-light: #FFF5F5;
     --bg-white: #ffffff;
-    --border-color: #e5e7eb;
+    --bg-soft: #FFD6D6;
+    --border-color: #FFB5A7;
     --success-color: #10b981;
     --whatsapp-color: #25D366;
-    
+
     --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     --font-display: 'Playfair Display', Georgia, serif;
-    
-    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+
+    --shadow-sm: 0 1px 2px 0 rgba(255, 107, 107, 0.1);
+    --shadow-md: 0 4px 6px -1px rgba(255, 107, 107, 0.15);
+    --shadow-lg: 0 10px 15px -3px rgba(255, 107, 107, 0.2);
+    --shadow-xl: 0 20px 25px -5px rgba(255, 107, 107, 0.25);
 }
 
 body {
@@ -161,7 +162,7 @@ a:hover {
 }
 
 .btn-primary:hover {
-    background: #1d4ed8;
+    background: var(--secondary-color);
     transform: translateY(-2px);
     box-shadow: var(--shadow-lg);
 }
@@ -195,7 +196,7 @@ a:hover {
 
 /* ===== Hero Section ===== */
 .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #FF6B6B 0%, #FFB5A7 100%);
     color: white;
     padding: 6rem 0;
     text-align: center;
@@ -316,7 +317,7 @@ section {
 
 /* ===== CTA Section ===== */
 .cta {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #FF6B6B 0%, #FFB5A7 100%);
     color: white;
     text-align: center;
     padding: 4rem 2rem;
@@ -345,7 +346,7 @@ section {
     text-align: center;
     margin-bottom: 3rem;
     padding-bottom: 2rem;
-    border-bottom: 3px solid var(--primary-color);
+    border-bottom: 3px solid var(--accent-color);
 }
 
 .page-header h1 {
@@ -387,7 +388,7 @@ section {
 }
 
 .page-content blockquote {
-    border-left: 4px solid var(--primary-color);
+    border-left: 4px solid var(--accent-color);
     padding-left: 1.5rem;
     margin: 2rem 0;
     font-style: italic;
@@ -458,7 +459,7 @@ section {
 }
 
 .social-links a:hover {
-    background: var(--primary-color);
+    background: var(--secondary-color);
     color: white;
 }
 
