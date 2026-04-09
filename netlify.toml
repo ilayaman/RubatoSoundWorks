@@ -3,9 +3,9 @@
 [build]
   # Directory with the build output
   publish = "output"
-  
+
   # Build command
-  command = "pelican content -s publishconf.py"
+  command = "pip install -r requirements.txt && pelican content -s publishconf.py"
 
 [build.environment]
   # Python version
