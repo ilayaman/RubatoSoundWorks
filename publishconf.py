@@ -10,9 +10,9 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
-# Leave empty for Netlify to work with any URL, or set to your Netlify URL
-SITEURL = ''
-RELATIVE_URLS = True
+# For custom domain on GitHub Pages
+SITEURL = 'https://rubatosoundworks.com'
+RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'

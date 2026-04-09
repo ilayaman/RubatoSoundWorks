@@ -199,6 +199,7 @@ ADDRESS = 'Zamin Pallavaram, Chennai, Tamil Nadu, 600043'
 STATIC_PATHS = ['images', 'extra']
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/CNAME': {'path': 'CNAME'},  # For custom domain on GitHub Pages
 }
 
 # Theme settings
