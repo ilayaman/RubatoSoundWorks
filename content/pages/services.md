@@ -105,6 +105,20 @@ Complete music production services from concept to finished track. We handle arr
 
 ---
 
+## 🔇 Acoustic Treatment
+
+Professional acoustic treatment solutions to optimize your recording space or listening environment. We design and implement treatments tailored to your room's unique acoustics.
+
+**Our Services:**
+- Room acoustic analysis and consultation
+- Custom acoustic panel design and installation
+- Bass trap placement and tuning
+- Diffusion and reflection control
+- Studio monitor positioning optimization
+- Complete room makeover solutions
+
+---
+
 ## Ready to Get Started?
 
 Contact us today to discuss your project and get a custom quote!

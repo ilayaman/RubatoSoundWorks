@@ -104,6 +104,24 @@ Transparent pricing for professional audio services. All prices are indicative a
 
 ---
 
+## 🔇 Acoustic Treatment
+
+**₹15,000 - ₹1,50,000 (project-based)**
+
+- Room acoustic analysis
+- Custom treatment design
+- Acoustic panel installation
+- Bass trap placement
+- Diffusion solutions
+- Monitor positioning consultation
+
+**Packages:**
+- Basic Room Treatment: ₹25,000 - ₹50,000
+- Professional Studio Setup: ₹75,000 - ₹1,50,000
+- Consultation Only: ₹5,000
+
+---
+
 ## Special Packages
 
 ### Student Discount

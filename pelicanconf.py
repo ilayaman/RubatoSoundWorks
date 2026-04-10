@@ -120,6 +120,12 @@ PRICING_PLANS = [
         'unit': 'per song',
         'features': ['Full production', 'Recording + Mixing', 'Session musicians (if needed)', 'Commercial use rights'],
     },
+    {
+        'service': 'Acoustic Treatment',
+        'price': '₹15,000 - ₹1,50,000',
+        'unit': 'project-based',
+        'features': ['Room acoustic analysis', 'Custom treatment design', 'Panel installation', 'Bass trap placement', 'Monitor positioning'],
+    },
 ]
 
 # ===== PORTFOLIO DATA (DYNAMIC!) =====
