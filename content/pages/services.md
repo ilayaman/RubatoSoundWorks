@@ -44,8 +44,6 @@ State-of-the-art recording facilities with acoustically treated rooms anState-of
 - Clean, broadcast-quality audio
 - Multiple takes and revisions
 - Fast turnaround available
-
-### Pric### Pric### Pric### Pric### Pric### Pric### Pric### P**### Pric### Pric### Pric### Pric### Pric### Pric### Prieat##e l### Pric### Pric##or ### Pric### Pric### Pric### Pric### Pric### Pric### Pric### P**### Pric### Pric### Pric### Pric### Pric### Pric### Prieat##e l### Pric### Pric Custom sound effect creation
 - Foley recording and - Foley recording and - Foley re Layered sound design
 - Ambient sou- Ambient sou- Ambient sou- Ambient snup
 - Delivery in any format required
