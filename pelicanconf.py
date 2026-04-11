@@ -50,7 +50,8 @@ DEFAULT_PAGINATION = False
 # ===== CUSTOM SETTINGS FOR RUBATO SOUND WORKS =====
 
 # Enable/Disable Pricing Page (Set to False to hide pricing)
-ENABLE_PRICING = True
+# Pricing is now merged into Services page
+ENABLE_PRICING = False
 
 # WhatsApp Contact Number (with country code, no spaces or special characters)
 WHATSAPP_NUMBER = '7010862601'  # Replace with your actual number
@@ -202,7 +203,7 @@ TESTIMONIALS = [
 ]
 
 # Contact Information
-EMAIL = 'inprogress@mail.com'
+EMAIL = 'hello@rubatosoundworks.com'
 PHONE = '+91 70108 62601'
 ADDRESS = 'Zamin Pallavaram, Chennai, Tamil Nadu, 600043'
 
