@@ -231,18 +231,18 @@ PAGE_SAVE_AS = '{slug}.html'
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
 
-# Menu items
+# Menu items (use relative URLs for local development)
 MENUITEMS = [
-    ('Home', '/'),
-    ('Services', '/services.html'),
-    ('Portfolio', '/portfolio.html'),
-    ('About', '/about.html'),
-    ('Contact', '/contact.html'),
+    ('Home', 'index.html'),
+    ('Services', 'services.html'),
+    ('Portfolio', 'portfolio.html'),
+    ('About', 'about.html'),
+    ('Contact', 'contact.html'),
 ]
 
 # Add pricing to menu if enabled
 if ENABLE_PRICING:
-    MENUITEMS.insert(3, ('Pricing', '/pricing.html'))
+    MENUITEMS.insert(3, ('Pricing', 'pricing.html'))
 
 # Use relative URLs for portability across different domains
 RELATIVE_URLS = True
