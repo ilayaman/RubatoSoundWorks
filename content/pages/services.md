@@ -3,82 +3,122 @@ Slug: services
 
 # Our Services
 
-## Our Story
-
-Rubato Sound Works was founded with a simple mission: to provide world-class audio production services that are accessible, affordable, and artist-friendly. 
-
-What started as a passion for music and sound has evolved into a full-service production studio, serving musicians, filmmakers, content creators, and brands across the region.
+At Rubato Sound Works, we offer comprehensive audio production services tailored to your creative vision. Each service includes professional-grade equipment, experienced engineers, and a commitment to excellence.
 
 ---
 
-## Our Philosophy
+## Mixing and Mastering
 
-**Rubato** - a musical term meaning "stolen time," where tempo becomes flexible and expressive. This philosophy guides our work: we believe in creative freedom, artistic expression, and going beyond the technical to capture the emotional essence of every project.
+Transform your raw tracks into polished, radio-ready productions with professional clarity, depth, and punch.
 
-We don't just record and mix - we collaborate, innovate, and elevate.
+### What's Included:
+- Professional mixing (up to 32 tracks)
+- Industry-standard mastering with analog warmth
+- 3 rounds of revisions included
+- Stereo master and stems delivery
+- Reference track consultation
+- Multiple format delivery (WAV, MP3, FLAC)
+- Mastered for streaming platforms (Spotify, Apple Music)
 
----
+### Investment:
+**Rs. 5,000 - Rs. 15,000** per song  
+**EP Package (4-6 tracks):** Rs. 18,000 - Rs. 40,000  
+**Album Package (8-12 tracks):** Rs. 35,000 - Rs. 80,000
 
-## What We Believe In
-
-🎯 **Quality First** - We never compromise on the quality of our work  
-🤝 **Artist-Centric** - Your vision guides our process  
-💡 **Creative Innovation** - We embrace new techniques and technologies  
-⏱️ **Respect for Time** - We value your deadlines and deliver on time  
-💰 **Fair Pricing** - Professional quality shouldn't break the bank  
-
----
-
-## Our Studio
-
-Our facility features:
-
-- **Acoustically Treated Rooms** - Optimized for accurate recording and monitoring
-- **Industry-Standard Equipment** - Microphones, preamps, converters, and monitors from leading manufacturers
-- **Comfortable Environment** - A creative space where artists feel inspired
-- **Latest Software** - Pro Tools, Logic Pro, Ableton Live, and more
-- **Flexible Spaces** - From intimate vocal sessions to full band recordings
+[Contact Us](/contact.html){: .btn .btn-primary}
 
 ---
 
-## Our Team
+## Recording Studio
 
-Our team consists of experienced audio engineers, music producers, and sound designers who are passionate about their craft. With years of experience across various genres and mediums, we bring technical expertise and creative insight to every project.
+State-of-the-art recording facilities with acoustically treated roState-of-the-am equipment. Capture your best performance in a comfortable, inspiring environment.
 
----
+### What's Included:
+- Acoustically treated vocal booth
+- Premium microphones (Neumann, AKG, Shure)
+- High-end preamps and converters
+- Professional monitoring system
+- Session musicians availa- Session musicians availa- Session musicians availa- Session musicians availa- Session musicians availa- Se 5,- Session musiciansHalf Day (4 hours):** Rs. 10,000  
+**Full Day (8 hours):** Rs. 18,000
 
-## Who We Work With
+[Book a Session](/contact.html){: .btn .btn-primary}
+[Book a Session](/contact.html){:bb[Book a Session](/contact.htmer[Book a Session](/contact.html){:bb[Book at. Perfect sync, natural delivery, and broadcast-quality audio.
 
-We've had the pleasure of working with:
-
-- Independent musicians and bands
-- Film and documentary producers
-- Content creators and YouTubers
-- Advertising agencies
-- Voice artists and podcasters
-- Music labels and production houses
-
----
-
-## Our Commitment
-
-When you work with Rubato Sound Works, you can expect:
-
-✓ **Professional Results** - Industry-standard quality on every project  
-✓ **Clear Communication** - We keep you informed throughout the process  
-✓ **Flexible Scheduling** - We work around your timeline  
-✓ **Honest Advice** - We'll tell you what your project needs  
-✓ **Continued Support** - We're here even after delivery  
+### What's I### What's I### What's I### What's Replacement)
+- Voice-over recording with professional artists
+- Lip-sync dubbing for multiple languages
+- Character voice work and direction
+- Clean, broadcast-quality audio
+- Multiple takes a- Multiple takes a- Multiple takes a- Multiple takes a- Multiple takes a- Multiple takes a- Multiple takes a- Multiple takes a- Multiple takes a- Multiple takes aFea- Multiple t** Contac- Multiple takes a- Multiproject](/contact.html){: .btn .btn-primary}
 
 ---
 
-## Let's Create Together
+## ## ## ## ## ## ## ##
+Custom sound Custom sound Custom sound CustofiCustom sound Custom sound Custom sound CustofiCustom sound Custom sound Custom sound CustofiCustom sound Custom sound Custom sound CustofiCustom sound Custom sound Custom sound CustofiCusto lCustom sound Custom sound Custom ign
+- Ambient soundscapes
+- Audio restoration and cleanu- Audio restoration and cleanu- Audio restoration and cleanu- Audio restoration and cleanu- Audio restoration and cleanu- Audio restoration and cleanu- Audio restoX:** Rs. 18,000  
+**Full project sound design:** Contact for quote
 
-Whether you're recording your first song or producing your tenth film, we're here to help you achieve your sonic goals.
+[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[-p[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Origi[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[ms, documentaries, and video content. Cinematic scores that enhance your storytelling and emotional impact.
 
-[Get in Touch](/contact.html){: .btn .btn-primary}
-[See Our Work](/portfolio.html){: .btn .btn-secondary}
+### What's Included:
+- Original composition tailored to your film
+- Live instrument recording (when applicable)
+- Orchestral arrangement and programming
+- Multiple revisions and spotting session
+- Stems and full mix delivery
+- Sync licensing included
+- Collaboration with director throughout process
+
+### Investment:
+**Rs. 20,000 - Rs. 1,00,000** per project  
+Pricing depends on film duration, instrumentation, and complexity.
+
+[Let's Collaborate](/contact.html){: .btn .btn-primary}
 
 ---
 
-*Rubato Sound Works - Where Sound Meets Soul*
+## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## So Arra## Song Recor## Song Recor## Songrd## Song Recoc m## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## Songrd## Song Recor## Song Recple## Song Recor## Son services from concept to finished track. Beat ## Song Recor## Song Recor## Songrd## Song Rll in one package.
+
+### What's Included:
+- Beat production and programming
+- Arrangement and composition
+- MIDI pro- MIDI pro- MIDI pro- MIn
+- Live instrument recording
+- Vocal production and- Vocal produc m- Vocal production and- Vocal produc m- V
+
+### Investment:
+**Rs. 10,000 - Rs. 50,000** per track  
+Varies based on complexity, instrumentation, and genre.
+
+[Contact Us]([Contact.html){: .btn .btn-primary}
+
+---
+
+## Acoustic Treatment
+
+Professional acoustic treatment solutions to optimize your recording space or listening environment. Transform your room's sound quality.
+
+### What's Included:
+- Room acoustic analysis and consultation
+- Custom acoustic panel design
+- Bass trap placement and tuning
+- Diffusion and reflection control
+- Studio monitor positioning optimization
+- Installation services available
+- Complete room makeover solutions
+
+### Investment:
+**Consultation Only:** Rs. 5,000  
+**Basic Room Treatment:** Rs. 25,000 - Rs. 50,000  
+**Professional Studio Setup:** Rs. 75,000 - Rs. 1,50,000
+
+[Schedule Consultation](/contact.html){: .btn .btn-primary}
+
+---
+
+## Ready to Get Started?
+
+Have a project in mindHave a project in mindHave a projeour audio vision to life. Contact us for a custom quote tailored to your needs.
+
+[Contact Us](/contact.html){: .btn .btn-primary}
