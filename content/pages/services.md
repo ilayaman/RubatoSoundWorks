@@ -20,105 +20,101 @@ Transform your raw tracks into polished, radio-ready productions with profession
 - Multiple format delivery (WAV, MP3, FLAC)
 - Mastered for streaming platforms (Spotify, Apple Music)
 
-### Investment:
+### Pricing:
 **Rs. 5,000 - Rs. 15,000** per song  
 **EP Package (4-6 tracks):** Rs. 18,000 - Rs. 40,000  
 **Album Package (8-12 tracks):** Rs. 35,000 - Rs. 80,000
-
-[Contact Us](/contact.html){: .btn .btn-primary}
 
 ---
 
 ## Recording Studio
 
-State-of-the-art recording facilities with acoustically treated roState-of-the-am equipment. Capture your best performance in a comfortable, inspiring environment.
-
-### What's Included:
-- Acoustically treated vocal booth
-- Premium microphones (Neumann, AKG, Shure)
+State-of-the-art recording facilities with acoustically treated rooms anState-of-the-art recording facilities with acAcoustically treatState-of-booth
+--------- microphones (Neumann, AKG, Shure)
 - High-end preamps and converters
 - Professional monitoring system
-- Session musicians availa- Session musicians availa- Session musicians availa- Session musicians availa- Session musicians availa- Se 5,- Session musiciansHalf Day (4 hours):** Rs. 10,000  
-**Full Day (8 hours):** Rs. 18,000
+- Session musicians available on request
+- Comfortable lounge area
+- Experienced recording engineer
 
-[Book a Session](/contact.html){: .btn .btn-primary}
-[Book a Session](/contact.html){:bb[Book a Session](/contact.htmer[Book a Session](/contact.html){:bb[Book at. Perfect sync, natural delivery, and broadcast-quality audio.
-
-### What's I### What's I### What's I### What's Replacement)
-- Voice-over recording with professional artists
-- Lip-sync dubbing for multiple languages
+### Pricing:
+**Rs. *,000 - Rs. 5,000** per hour  **Rs. *,000 - Rs. 5,000** per hour  **Rs. *,000 - Rs. 5,000** per hour  **Rs. *,000 - Rs. 5,000** per houubbing services for films, web series, advertisements, and multimed**Rs. *,000 - Rs. 5,000** per hour  **Rs. *,000te**Rs. *,000 -placement)
+- Voice-o- Voice-o- Voice-o- Voice-o- Vo art- Voice-o- Voice-o- Voice-o- ultiple languages
 - Character voice work and direction
 - Clean, broadcast-quality audio
-- Multiple takes a- Multiple takes a- Multiple takes a- Multiple takes a- Multiple takes a- Multiple takes a- Multiple takes a- Multiple takes a- Multiple takes a- Multiple takes aFea- Multiple t** Contac- Multiple takes a- Multiproject](/contact.html){: .btn .btn-primary}
+- Multiple takes and revisions
+- Fast turnaround available
+
+### Pric### Pric### Pric### Pric### Pric### Pric### Pric### P**### Pric### Pric### Pric### Pric### Pric### Pric### Prieat##e l### Pric### Pric##or ### Pric### Pric### Pric### Pric### Pric### Pric### Pric### P**### Pric### Pric### Pric### Pric### Pric### Pric### Prieat##e l### Pric### Pric Custom sound effect creation
+- Foley recording and - Foley recording and - Foley re Layered sound design
+- Ambient sou- Ambient sou- Ambient sou- Ambient snup
+- Delivery in any format required
+
+### Pricing:
+**Rs. 500 - Rs. 2,000** per sound effect  
+**Package of 10 custom SFX:** Rs. 8,000  
+**Package of 25 custom SFX:** Rs. 18,000  
+**Full project sound design:** Contact for quote
 
 ---
 
-## ## ## ## ## ## ## ##
-Custom sound Custom sound Custom sound CustofiCustom sound Custom sound Custom sound CustofiCustom sound Custom sound Custom sound CustofiCustom sound Custom sound Custom sound CustofiCustom sound Custom sound Custom sound CustofiCusto lCustom sound Custom sound Custom ign
-- Ambient soundscapes
-- Audio restoration and cleanu- Audio restoration and cleanu- Audio restoration and cleanu- Audio restoration and cleanu- Audio restoration and cleanu- Audio restoration and cleanu- Audio restoX:** Rs. 18,000  
-**Full project sound design:** Contact for quote
+## Short Film Scoring
 
-[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[-p[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Origi[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[ms, documentaries, and video content. Cinematic scores that enhance your storytelling and emotional impact.
+Original music composition for short films, documentaries, and video content.
 
 ### What's Included:
-- Original composition tailored to your film
-- Live instrument recording (when applicable)
-- Orchestral arrangement and programming
+### What's Included:
+ition for short films, documentaries, and video content.
+c###licable)
+c###licable)
+rt films, documentariemming
 - Multiple revisions and spotting session
 - Stems and full mix delivery
 - Sync licensing included
 - Collaboration with director throughout process
 
-### Investment:
+### Pricing:
 **Rs. 20,000 - Rs. 1,00,000** per project  
 Pricing depends on film duration, instrumentation, and complexity.
 
-[Let's Collaborate](/contact.html){: .btn .btn-primary}
-
 ---
 
-## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## So Arra## Song Recor## Song Recor## Songrd## Song Recoc m## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## Songrd## Song Recor## Song Recor## Songrd## Song Recor## Song Recple## Song Recor## Son services from concept to finished track. Beat ## Song Recor## Song Recor## Songrd## Song Rll in one package.
+## Song Recording
+
+Full song recording services from pre-production to final mix.
 
 ### What's Included:
-- Beat production and programming
-- Arrangement and composition
-- MIDI pro- MIDI pro- MIDI pro- MIn
+- Pre-production consultat- Pre-production consultat- Pre-production consultat- Pre-production consu a- Pre-production consultat- Pre-production consultatcl- Pre-production consultat- Pre-# P- Pre-pr**Rs. 8,000 - Rs. 25,000** per song  
+Includes rIncludes rIncludes rIncludes rIncludes rriIncludes rIncludes rIncludes rIncludes rIusic production services from concept to finished track.
+
+### What's Included:
+---------------------------------------------------------------------- programming and sound design
 - Live instrument recording
-- Vocal production and- Vocal produc m- Vocal production and- Vocal produc m- V
+- Vocal production and tuning
+- Full mixing and mas- Full miUnlimited revisions
 
-### Investment:
+### Pricing:
 **Rs. 10,000 - Rs. 50,000** per track  
-Varies based on complexity, instrumentation, and genre.
+Varies based on complexity, instrumentationVaries based on complexioustic Treatment
 
-[Contact Us]([Contact.html){: .btn .btn-primary}
-
----
-
-## Acoustic Treatment
-
-Professional acoustic treatment solutions to optimize your recording space or listening environment. Transform your room's sound quality.
+Professional acoustic treatment solutions to optimize your recording space.
 
 ### What's Included:
 - Room acoustic analysis and consultation
-- Custom acoustic panel design
-- Bass trap placement and tuning
-- Diffusion and reflection control
-- Studio monitor positioning optimization
+- Custom acoustic panel - Custom acos trap - Custom acoustic panel - Custom acos trap - Cuscontrol
+- Studio- Studio- Studio- Sg optimization
 - Installation services available
 - Complete room makeover solutions
 
-### Investment:
+### Pricing:
 **Consultation Only:** Rs. 5,000  
 **Basic Room Treatment:** Rs. 25,000 - Rs. 50,000  
 **Professional Studio Setup:** Rs. 75,000 - Rs. 1,50,000
-
-[Schedule Consultation](/contact.html){: .btn .btn-primary}
 
 ---
 
 ## Ready to Get Started?
 
-Have a project in mindHave a project in mindHave a projeour audio vision to life. Contact us for a custom quote tailored to your needs.
+Have a project in mind? Let's discuss how we can bring your audio vision to life.
 
-[Contact Us](/contact.html){: .btn .btn-primary}
+[Avail Our Services](/contact.html){: .btn .btn-primary}
