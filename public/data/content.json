@@ -1,0 +1,133 @@
+{
+  "site": {
+    "name": "Rubato Sound Works",
+    "tagline": "Where Sound Meets Precision",
+    "description": "Professional music production studio crafting sonic excellence",
+    "email": "hello@rubatosoundworks.com",
+    "phone": "+91 70108 62601",
+    "whatsapp": "917010862601",
+    "address": "Zamin Pallavaram, Chennai, Tamil Nadu, 600043",
+    "social": {
+      "instagram": "https://instagram.com/rubatosoundworks",
+      "youtube": "https://youtube.com/@rubatosoundworks",
+      "facebook": "https://facebook.com/rubatosoundworks"
+    }
+  },
+  "hero": {
+    "title": ["Where Sound", "Meets Precision"],
+    "subtitle": "Professional music production studio crafting sonic excellence",
+    "cta": [
+      {
+        "text": "Start Your Project",
+        "link": "#contact",
+        "style": "primary"
+      },
+      {
+        "text": "View Our Work",
+        "link": "#portfolio",
+        "style": "secondary"
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": 1,
+      "icon": "🎙️",
+      "title": "Recording",
+      "description": "Professional multi-track recording with industry-standard equipment and acoustically treated spaces.",
+      "features": ["Vocal Recording", "Instrument Tracking", "Voice-Over", "Podcast Recording"]
+    },
+    {
+      "id": 2,
+      "icon": "🎚️",
+      "title": "Mixing",
+      "description": "Expert mixing services to balance, polish, and enhance your tracks for maximum impact.",
+      "features": ["Stereo Mixing", "Stem Mixing", "Mix Revision", "Audio Restoration"]
+    },
+    {
+      "id": 3,
+      "icon": "✨",
+      "title": "Mastering",
+      "description": "Final polish for your music with precision mastering for all streaming platforms.",
+      "features": ["Stereo Mastering", "Stem Mastering", "Vinyl Mastering", "Streaming Optimization"]
+    },
+    {
+      "id": 4,
+      "icon": "🎵",
+      "title": "Production",
+      "description": "Full music production from concept to completion with creative arrangement and sound design.",
+      "features": ["Beat Making", "Arrangement", "Sound Design", "Programming"]
+    },
+    {
+      "id": 5,
+      "icon": "🎬",
+      "title": "Post Production",
+      "description": "Audio post-production for film, video, and multimedia content.",
+      "features": ["Dialogue Editing", "Sound Design", "Foley", "ADR"]
+    },
+    {
+      "id": 6,
+      "icon": "🎸",
+      "title": "Live Recording",
+      "description": "Capture the energy of live performances with mobile recording solutions.",
+      "features": ["Concert Recording", "Session Recording", "Multi-cam Audio", "Live Mixing"]
+    }
+  ],
+  "portfolio": [
+    {
+      "id": 1,
+      "title": "Indie Album - 'Echoes'",
+      "artist": "The Wavelengths",
+      "type": "Album Production",
+      "image": "content/images/portfolio-1.jpg",
+      "description": "Complete album production, mixing, and mastering"
+    },
+    {
+      "id": 2,
+      "title": "Film Score - 'Midnight Tales'",
+      "artist": "Original Soundtrack",
+      "type": "Film Scoring",
+      "image": "content/images/portfolio-2.jpg",
+      "description": "Original score composition and recording"
+    },
+    {
+      "id": 3,
+      "title": "Single - 'Urban Dreams'",
+      "artist": "MC Rhythm",
+      "type": "Hip-Hop Production",
+      "image": "content/images/portfolio-3.jpg",
+      "description": "Beat production, recording, and mixing"
+    },
+    {
+      "id": 4,
+      "title": "Podcast - 'Sound Stories'",
+      "artist": "Chennai Tales",
+      "type": "Podcast Production",
+      "image": "content/images/portfolio-4.jpg",
+      "description": "Recording, editing, and post-production"
+    }
+  ],
+  "about": {
+    "title": "Crafting Sound Since Day One",
+    "description": "At Rubato Sound Works, we blend artistic vision with technical precision. Our state-of-the-art facility in Chennai delivers professional-grade audio production for musicians, filmmakers, and content creators.",
+    "stats": [
+      {
+        "number": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "number": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "number": "100%",
+        "label": "Client Satisfaction"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's Create Together",
+    "description": "Ready to bring your sonic vision to life? Reach out and let's discuss your project.",
+    "whatsappMessage": "Hi! I'd like to discuss a project with Rubato Sound Works."
+  }
+}

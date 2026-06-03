@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubato Sound Works - Feel the Rhythm. Shape the Sound.</title>
+    <!-- Typography: Astro for headings, Manrope for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="content/images/logo_colour.png">
+</head>
+<body>
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <img src="content/images/logo_colour.png" alt="Rubato Sound Works">
+            </a>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link-cta">Contact</a>
+            </div>
+            <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title" id="heroTitle"></h1>
+                <p class="hero-subtitle" id="heroSubtitle"></p>
+                <div class="hero-cta" id="heroCta"></div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-1"><div class="waveform"></div></div>
+                <div class="floating-card card-2"><div class="equalizer"><span></span><span></span><span></span><span></span><span></span></div></div>
+                <div class="floating-card card-3">
+                    <img src="content/images/Vinyl.png" alt="Vinyl" class="vinyl-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="label">What We Do</span>
+                <h2>Our Services</h2>
+            </div>
+            <div class="services-grid" id="servicesGrid"></div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="label">Our Work</span>
+                <h2>Recent Projects</h2>
+            </div>
+            <div class="portfolio-grid" id="portfolioGrid"></div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <span class="label">About Us</span>
+                    <h2 id="aboutTitle"></h2>
+                    <p id="aboutDescription"></p>
+                    <div class="about-stats" id="aboutStats"></div>
+                </div>
+                <div class="about-visual">
+                    <div class="studio-knobs">
+                        <div class="knob"></div>
+                        <div class="knob"></div>
+                        <div class="knob"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <span class="label">Get In Touch</span>
+                <h2 id="contactTitle"></h2>
+                <p id="contactDescription"></p>
+                <div class="contact-details" id="contactDetails"></div>
+                <a href="#" id="whatsappBtn" class="btn-whatsapp">💬 Chat on WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 <span id="footerName"></span>. All rights reserved.</p>
+        <div id="footerSocial"></div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
