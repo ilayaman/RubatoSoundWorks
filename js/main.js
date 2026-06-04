@@ -216,12 +216,12 @@ function initializeNavigation() {
             }
         });
 
-        // Navbar background on scroll
+        // Navbar shadow on scroll (dark theme)
         const nav = document.getElementById('nav');
         if (window.scrollY > 50) {
-            nav.style.boxShadow = '0 4px 16px rgba(28, 25, 25, 0.1)';
+            nav.style.boxShadow = '0 4px 24px rgba(0, 0, 0, 0.5)';
         } else {
-            nav.style.boxShadow = '0 2px 8px rgba(28, 25, 25, 0.05)';
+            nav.style.boxShadow = '0 4px 16px rgba(0, 0, 0, 0.3)';
         }
     });
 }
