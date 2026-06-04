@@ -9,7 +9,8 @@ let siteData = null;
 // Load content from JSON
 async function loadContent() {
     try {
-        const response = await fetch('public/data/content.json');
+        // Add cache-busting parameter to always get fresh content
+        const response = await fetch(`public/data/content.json?v=${Date.now()}`);
         siteData = await response.json();
         initializeSite();
     } catch (error) {
