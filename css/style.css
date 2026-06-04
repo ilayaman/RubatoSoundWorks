@@ -158,12 +158,12 @@ body {
 }
 
 /* ===================================
-   TYPOGRAPHY - Astro (Display) + Manrope (Body)
+   TYPOGRAPHY - New Astro (Hero Title Only) + Manrope (Everything Else)
    Tone: "Creative, but intentional"
    =================================== */
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-display);
+    font-family: var(--font-body);
     font-weight: 700;
     line-height: 1.2;
     color: var(--charcoal);
