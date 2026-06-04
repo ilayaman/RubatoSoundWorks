@@ -1261,17 +1261,28 @@ p {
 
     /* Fix hero section going under navbar */
     .hero {
-        min-height: auto;
-        padding: calc(60px + var(--spacing-md)) 0 var(--spacing-xl) 0;
-        padding-top: 60px;
-        margin-top: 0;
+        min-height: 100vh;
+        padding-top: 60px !important;
+        padding-bottom: var(--spacing-md);
+    }
+
+    .hero-container {
+        padding: var(--spacing-md);
     }
 
     /* Fix page-hero section going under navbar on mobile */
     .page-hero {
         margin-top: 60px;
-        padding: var(--spacing-lg) 0;
+        padding: var(--spacing-lg) var(--spacing-sm);
         min-height: 40vh;
+    }
+
+    .hero-content {
+        padding-top: var(--spacing-md);
+    }
+
+    .hero-title {
+        margin-top: var(--spacing-sm);
     }
 
     .hero-visual {
