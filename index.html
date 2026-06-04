@@ -11,7 +11,7 @@
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&f[]=zodiak@400,500,600,700,800,900&display=swap" rel="stylesheet">
     <!-- Astro Space font alternative -->
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css?v=4">
+    <link rel="stylesheet" href="css/style.css?v=5">
     <link rel="icon" href="content/images/logo_colour.png">
 </head>
 <body>
@@ -24,6 +24,7 @@
                 <a href="#home" class="nav-link active">Home</a>
                 <a href="#services" class="nav-link">Services</a>
                 <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#studio" class="nav-link">Studio</a>
                 <a href="#about" class="nav-link">About</a>
                 <a href="#contact" class="nav-link-cta">Contact</a>
             </div>
@@ -68,13 +69,26 @@
         </div>
     </section>
 
+    <!-- Studio Gallery Section -->
+    <section class="studio-gallery" id="studio">
+        <div class="container">
+            <div class="section-header">
+                <span class="label">The Studio</span>
+                <h2 id="studioTitle"></h2>
+                <p id="studioDescription"></p>
+            </div>
+            <div class="studio-images" id="studioImages"></div>
+        </div>
+    </section>
+
     <section class="about" id="about">
         <div class="container">
+            <!-- About Studio -->
             <div class="about-content">
                 <div class="about-text">
-                    <span class="label">About Us</span>
-                    <h2 id="aboutTitle"></h2>
-                    <p id="aboutDescription"></p>
+                    <span class="label">About Our Studio</span>
+                    <h2 id="aboutStudioTitle"></h2>
+                    <p id="aboutStudioDescription"></p>
                     <div class="about-stats" id="aboutStats"></div>
                 </div>
                 <div class="about-visual">
@@ -84,6 +98,15 @@
                         <div class="knob"></div>
                     </div>
                 </div>
+            </div>
+
+            <!-- Founders Section -->
+            <div class="founders-section">
+                <div class="section-header">
+                    <span class="label">The Team</span>
+                    <h2>Meet The Founders</h2>
+                </div>
+                <div class="founders-grid" id="foundersGrid"></div>
             </div>
         </div>
     </section>

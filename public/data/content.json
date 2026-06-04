@@ -107,21 +107,63 @@
       "description": "Recording, editing, and post-production"
     }
   ],
+  "studio": {
+    "title": "Our Studio",
+    "description": "Step into our world-class recording environment",
+    "images": [
+      {
+        "src": "content/images/studio/studio-1.jpg",
+        "alt": "Recording Studio Main Room",
+        "caption": "Main Recording Room"
+      },
+      {
+        "src": "content/images/studio/studio-2.jpg",
+        "alt": "Control Room",
+        "caption": "Control Room"
+      },
+      {
+        "src": "content/images/studio/studio-3.jpg",
+        "alt": "Mixing Console",
+        "caption": "Professional Mixing Console"
+      },
+      {
+        "src": "content/images/studio/studio-4.jpg",
+        "alt": "Vocal Booth",
+        "caption": "Vocal Booth"
+      }
+    ]
+  },
   "about": {
-    "title": "Crafting Sound Since Day One",
-    "description": "At Rubato Sound Works, we blend artistic vision with technical precision. Our state-of-the-art facility in Chennai delivers professional-grade audio production for musicians, filmmakers, and content creators.",
-    "stats": [
+    "studio": {
+      "title": "About Our Studio",
+      "description": "At Rubato Sound Works, we blend artistic vision with technical precision. Our state-of-the-art facility in Chennai delivers professional-grade audio production for musicians, filmmakers, and content creators.",
+      "stats": [
+        {
+          "number": "500+",
+          "label": "Projects Completed"
+        },
+        {
+          "number": "10+",
+          "label": "Years Experience"
+        },
+        {
+          "number": "100%",
+          "label": "Client Satisfaction"
+        }
+      ]
+    },
+    "founders": [
       {
-        "number": "500+",
-        "label": "Projects Completed"
+        "name": "John Doe",
+        "role": "Producer & Creative Director",
+        "image": "content/images/team/producer.jpg",
+        "bio": "With over 10 years of experience in music production, John brings artistic vision and creative excellence to every project."
       },
       {
-        "number": "10+",
-        "label": "Years Experience"
-      },
-      {
-        "number": "100%",
-        "label": "Client Satisfaction"
+        "name": "Jane Smith",
+        "role": "Technical Director",
+        "image": "content/images/team/technical-director.jpg",
+        "bio": "Jane's technical expertise and attention to detail ensure every project achieves the highest professional standards."
       }
     ]
   },

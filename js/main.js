@@ -25,6 +25,7 @@ function initializeSite() {
     populateHero();
     populateServices();
     populatePortfolio();
+    populateStudioGallery();
     populateAbout();
     populateContact();
     populateFooter();
@@ -106,16 +107,40 @@ function populatePortfolio() {
 }
 
 // ===================================
+// STUDIO GALLERY SECTION
+// ===================================
+
+function populateStudioGallery() {
+    const { studio } = siteData;
+
+    document.getElementById('studioTitle').textContent = studio.title;
+    document.getElementById('studioDescription').textContent = studio.description;
+
+    const galleryHTML = studio.images.map(image => `
+        <div class="studio-image-item" data-aos="fade-up">
+            <div class="studio-image-wrapper">
+                <img src="${image.src}" alt="${image.alt}" loading="lazy">
+                <div class="studio-image-overlay">
+                    <span class="studio-image-caption">${image.caption}</span>
+                </div>
+            </div>
+        </div>
+    `).join('');
+
+    document.getElementById('studioImages').innerHTML = galleryHTML;
+}
+
+// ===================================
 // ABOUT SECTION
 // ===================================
 
 function populateAbout() {
     const { about } = siteData;
 
-    document.getElementById('aboutTitle').textContent = about.title;
-    document.getElementById('aboutDescription').textContent = about.description;
+    document.getElementById('aboutStudioTitle').textContent = about.studio.title;
+    document.getElementById('aboutStudioDescription').textContent = about.studio.description;
 
-    const statsHTML = about.stats.map(stat => `
+    const statsHTML = about.studio.stats.map(stat => `
         <div class="stat-item" data-aos="flip-up">
             <span class="stat-number">${stat.number}</span>
             <span class="stat-label">${stat.label}</span>
@@ -123,6 +148,22 @@ function populateAbout() {
     `).join('');
 
     document.getElementById('aboutStats').innerHTML = statsHTML;
+
+    // Populate founders
+    const foundersHTML = about.founders.map(founder => `
+        <div class="founder-card" data-aos="flip-left">
+            <div class="founder-image-wrapper">
+                <img src="${founder.image}" alt="${founder.name}" loading="lazy">
+            </div>
+            <div class="founder-info">
+                <h3 class="founder-name">${founder.name}</h3>
+                <p class="founder-role">${founder.role}</p>
+                <p class="founder-bio">${founder.bio}</p>
+            </div>
+        </div>
+    `).join('');
+
+    document.getElementById('foundersGrid').innerHTML = foundersHTML;
 }
 
 // ===================================
