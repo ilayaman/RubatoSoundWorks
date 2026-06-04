@@ -1,7 +1,7 @@
 {
   "site": {
     "name": "Rubato Sound Works",
-    "tagline": "Where Sound Meets Precision",
+    "tagline": "Feel the rhythm. Shape the sound.",
     "description": "Professional music production studio crafting sonic excellence",
     "email": "hello@rubatosoundworks.com",
     "phone": "+91 70108 62601",
@@ -14,7 +14,7 @@
     }
   },
   "hero": {
-    "title": ["Where Sound", "Meets Precision"],
+    "title": ["Feel the rhythm.","Shape the sound."],
     "subtitle": "Professional music production studio crafting sonic excellence",
     "cta": [
       {
