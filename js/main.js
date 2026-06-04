@@ -20,14 +20,17 @@ async function loadContent() {
     }
 }
 
-// Initialize all site sections
+// Initialize all site sections based on what's on the page
 function initializeSite() {
-    populateHero();
-    populateServices();
-    populatePortfolio();
-    populateStudioGallery();
-    populateAbout();
-    populateContact();
+    // Populate sections that exist on current page
+    if (document.getElementById('heroTitle')) populateHero();
+    if (document.getElementById('servicesGrid')) populateServices();
+    if (document.getElementById('portfolioGrid')) populatePortfolio();
+    if (document.getElementById('studioImages')) populateStudioGallery();
+    if (document.getElementById('aboutStudioTitle')) populateAbout();
+    if (document.getElementById('contactTitle')) populateContact();
+
+    // Always populate footer and initialize navigation
     populateFooter();
     initializeNavigation();
     initializeScrollEffects();
@@ -238,27 +241,8 @@ function initializeNavigation() {
         });
     });
 
-    // Active link on scroll
+    // Navbar shadow on scroll (light theme)
     window.addEventListener('scroll', () => {
-        let current = '';
-        const sections = document.querySelectorAll('section[id]');
-
-        sections.forEach(section => {
-            const sectionTop = section.offsetTop - 100;
-            const sectionHeight = section.clientHeight;
-            if (window.pageYOffset >= sectionTop && window.pageYOffset < sectionTop + sectionHeight) {
-                current = section.getAttribute('id');
-            }
-        });
-
-        navLinks.forEach(link => {
-            link.classList.remove('active');
-            if (link.getAttribute('href') === `#${current}`) {
-                link.classList.add('active');
-            }
-        });
-
-        // Navbar shadow on scroll (light theme)
         const nav = document.getElementById('nav');
         if (window.scrollY > 50) {
             nav.style.boxShadow = '0 4px 16px rgba(28, 25, 25, 0.12)';
