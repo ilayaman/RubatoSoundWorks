@@ -948,21 +948,24 @@ p {
    =================================== */
 
 .founders-section {
-    margin-top: var(--spacing-xl);
-    padding-top: var(--spacing-xl);
+    margin-top: var(--spacing-lg);
+    padding-top: var(--spacing-lg);
     border-top: 2px solid var(--gray-200);
 }
 
 .founders-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: var(--spacing-lg);
-    margin-top: var(--spacing-lg);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-md);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .founder-card {
     background: linear-gradient(135deg, #F8F8F8, #FFFFFF);
-    border-radius: 20px;
+    border-radius: 16px;
     overflow: hidden;
     box-shadow: var(--shadow-md);
     transition: all var(--transition-base);
@@ -970,7 +973,7 @@ p {
 }
 
 .founder-card:hover {
-    transform: translateY(-12px) rotateY(2deg);
+    transform: translateY(-8px) rotateY(2deg);
     box-shadow: var(--shadow-lg);
 }
 
@@ -992,35 +995,35 @@ p {
 }
 
 .founder-card:hover .founder-image-wrapper img {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .founder-info {
-    padding: var(--spacing-md);
+    padding: var(--spacing-sm) var(--spacing-md);
     text-align: center;
 }
 
 .founder-name {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
     color: var(--charcoal);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
 }
 
 .founder-role {
-    font-size: 0.9375rem;
+    font-size: 0.875rem;
     font-weight: 600;
     color: var(--red-primary);
     text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-bottom: var(--spacing-sm);
+    letter-spacing: 0.05em;
+    margin-bottom: var(--spacing-xs);
 }
 
 .founder-bio {
-    font-size: 0.9375rem;
+    font-size: 0.875rem;
     color: var(--charcoal);
     opacity: 0.8;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 /* ===================================
