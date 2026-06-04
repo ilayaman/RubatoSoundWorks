@@ -263,7 +263,7 @@ p {
 }
 
 .nav-logo {
-    background: var(--charcoal);
+    background: #1C1919;
     padding: 0.75rem 1.5rem;
     border-radius: 12px;
     display: inline-flex;
@@ -275,7 +275,7 @@ p {
 .nav-logo:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 16px rgba(28, 25, 25, 0.2);
-    background: var(--charcoal-light);
+    background: #2A2626;
 }
 
 .nav-logo img {
@@ -353,8 +353,8 @@ p {
     align-items: center;
     justify-content: center;
     position: relative;
-    /* Solid charcoal background - matches logo container */
-    background: var(--charcoal);
+    /* Solid charcoal background - exact color from branding doc */
+    background: #1C1919;
     overflow: hidden;
     padding-top: 80px;
     position: relative;
