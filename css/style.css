@@ -234,6 +234,19 @@ p {
     margin-bottom: var(--spacing-lg);
 }
 
+.section-header h2 {
+    color: var(--white);
+}
+
+.section-header .label {
+    color: var(--white);
+}
+
+.section-header p {
+    color: var(--white);
+    opacity: 0.8;
+}
+
 /* ===================================
    NAVIGATION - Dark Studio Theme
    =================================== */
@@ -646,7 +659,7 @@ p {
 
 .services {
     padding: var(--spacing-xl) 0;
-    background: var(--white);
+    background: linear-gradient(180deg, #1A1A1A 0%, #2A1A1A 100%);
 }
 
 .services-grid {
@@ -656,12 +669,12 @@ p {
 }
 
 .service-card {
-    background: var(--white);
+    background: linear-gradient(135deg, rgba(214, 36, 34, 0.95), rgba(236, 48, 39, 0.95));
     border-radius: 20px;
     padding: var(--spacing-lg);
     box-shadow: var(--shadow-md);
     transition: all var(--transition-base);
-    border: 1px solid rgba(28, 25, 25, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     position: relative;
     overflow: hidden;
 }
@@ -673,7 +686,7 @@ p {
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+    background: var(--white);
     transform: scaleX(0);
     transition: transform var(--transition-base);
 }
@@ -684,24 +697,25 @@ p {
 
 .service-card:hover {
     transform: translateY(-8px);
-    box-shadow: var(--shadow-lg);
+    box-shadow: 0 16px 48px rgba(214, 36, 34, 0.5);
 }
 
 .service-icon {
     font-size: 3rem;
     margin-bottom: var(--spacing-sm);
     display: inline-block;
+    filter: brightness(0) invert(1);
 }
 
 .service-card h3 {
-    color: var(--charcoal);
+    color: var(--white);
     margin-bottom: var(--spacing-sm);
     font-weight: 700;
 }
 
 .service-card p {
-    color: var(--charcoal);
-    opacity: 0.8;
+    color: var(--white);
+    opacity: 0.9;
     font-size: 1rem;
     margin-bottom: var(--spacing-sm);
 }
@@ -713,8 +727,8 @@ p {
 
 .service-features li {
     padding: 0.5rem 0;
-    color: var(--charcoal);
-    opacity: 0.7;
+    color: var(--white);
+    opacity: 0.8;
     font-size: 0.9375rem;
     padding-left: 1.5rem;
     position: relative;
@@ -724,7 +738,7 @@ p {
     content: '✓';
     position: absolute;
     left: 0;
-    color: var(--red-primary);
+    color: var(--white);
     font-weight: 700;
 }
 
@@ -734,7 +748,7 @@ p {
 
 .portfolio {
     padding: var(--spacing-xl) 0;
-    background: linear-gradient(180deg, #FFFFFF 0%, #F8F8F8 100%);
+    background: #1A1A1A;
 }
 
 .portfolio-grid {
@@ -744,7 +758,8 @@ p {
 }
 
 .portfolio-item {
-    background: var(--white);
+    background: linear-gradient(135deg, rgba(214, 36, 34, 0.1), rgba(214, 36, 34, 0.05));
+    border: 2px solid rgba(214, 36, 34, 0.3);
     border-radius: 20px;
     overflow: hidden;
     box-shadow: var(--shadow-md);
@@ -754,7 +769,8 @@ p {
 
 .portfolio-item:hover {
     transform: translateY(-8px) scale(1.02);
-    box-shadow: var(--shadow-lg);
+    box-shadow: 0 16px 48px rgba(214, 36, 34, 0.4);
+    border-color: var(--red-primary);
 }
 
 .portfolio-image {
@@ -770,7 +786,7 @@ p {
 
 .portfolio-type {
     font-size: 0.875rem;
-    color: var(--red-primary);
+    color: var(--white);
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -778,20 +794,20 @@ p {
 }
 
 .portfolio-item h3 {
-    color: var(--charcoal);
+    color: var(--white);
     margin-bottom: 0.5rem;
     font-size: 1.5rem;
 }
 
 .portfolio-artist {
-    color: var(--charcoal);
-    opacity: 0.6;
+    color: var(--white);
+    opacity: 0.7;
     font-size: 0.9375rem;
     margin-bottom: 0.75rem;
 }
 
 .portfolio-description {
-    color: var(--charcoal);
+    color: var(--white);
     opacity: 0.8;
     font-size: 0.9375rem;
 }
@@ -802,7 +818,7 @@ p {
 
 .studio-gallery {
     padding: var(--spacing-xl) 0;
-    background: #F8F8F8;
+    background: linear-gradient(180deg, rgba(214, 36, 34, 0.95) 0%, rgba(214, 36, 34, 0.85) 100%);
 }
 
 .studio-images {
@@ -871,7 +887,7 @@ p {
 
 .about {
     padding: var(--spacing-xl) 0;
-    background: var(--white);
+    background: #1A1A1A;
 }
 
 .about-content {
@@ -885,6 +901,15 @@ p {
     max-width: 600px;
 }
 
+.about-text h2 {
+    color: var(--white);
+}
+
+.about-text p {
+    color: var(--white);
+    opacity: 0.8;
+}
+
 .about-stats {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -895,33 +920,30 @@ p {
 .stat-item {
     text-align: center;
     padding: var(--spacing-md);
-    background: linear-gradient(135deg, rgba(236, 48, 39, 0.05), rgba(255, 122, 39, 0.05));
+    background: linear-gradient(135deg, rgba(214, 36, 34, 0.9), rgba(236, 48, 39, 0.9));
     border-radius: 16px;
-    border: 1px solid rgba(214, 36, 34, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     transition: all var(--transition-base);
 }
 
 .stat-item:hover {
     transform: translateY(-4px);
-    box-shadow: var(--shadow-md);
+    box-shadow: 0 12px 32px rgba(214, 36, 34, 0.5);
 }
 
 .stat-number {
     display: block;
     font-size: 2.5rem;
     font-weight: 800;
-    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--white);
     margin-bottom: 0.5rem;
 }
 
 .stat-label {
     display: block;
     font-size: 0.9375rem;
-    color: var(--charcoal);
-    opacity: 0.7;
+    color: var(--white);
+    opacity: 0.9;
     font-weight: 600;
 }
 
@@ -991,7 +1013,11 @@ p {
 .founders-section {
     margin-top: var(--spacing-lg);
     padding-top: var(--spacing-lg);
-    border-top: 2px solid var(--gray-200);
+    border-top: 2px solid rgba(214, 36, 34, 0.3);
+}
+
+.founders-section h2 {
+    color: var(--white);
 }
 
 .founders-grid {
@@ -1005,7 +1031,8 @@ p {
 }
 
 .founder-card {
-    background: linear-gradient(135deg, #F8F8F8, #FFFFFF);
+    background: linear-gradient(135deg, rgba(214, 36, 34, 0.1), rgba(214, 36, 34, 0.05));
+    border: 2px solid rgba(214, 36, 34, 0.3);
     border-radius: 16px;
     overflow: hidden;
     box-shadow: var(--shadow-md);
@@ -1015,7 +1042,8 @@ p {
 
 .founder-card:hover {
     transform: translateY(-8px) rotateY(2deg);
-    box-shadow: var(--shadow-lg);
+    box-shadow: 0 12px 32px rgba(214, 36, 34, 0.4);
+    border-color: var(--red-primary);
 }
 
 .founder-image-wrapper {
@@ -1047,14 +1075,14 @@ p {
 .founder-name {
     font-size: 1.25rem;
     font-weight: 700;
-    color: var(--charcoal);
+    color: var(--white);
     margin-bottom: 0.25rem;
 }
 
 .founder-role {
     font-size: 0.875rem;
     font-weight: 600;
-    color: var(--red-primary);
+    color: var(--white);
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-bottom: var(--spacing-xs);
@@ -1062,7 +1090,7 @@ p {
 
 .founder-bio {
     font-size: 0.875rem;
-    color: var(--charcoal);
+    color: var(--white);
     opacity: 0.8;
     line-height: 1.5;
 }
@@ -1073,13 +1101,22 @@ p {
 
 .contact {
     padding: var(--spacing-xl) 0;
-    background: linear-gradient(180deg, #FFFFFF 0%, #F8F8F8 100%);
+    background: linear-gradient(135deg, rgba(214, 36, 34, 0.95), rgba(236, 48, 39, 0.95));
 }
 
 .contact-content {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+}
+
+.contact-content h2 {
+    color: var(--white);
+}
+
+.contact-content p {
+    color: var(--white);
+    opacity: 0.9;
 }
 
 .contact-details {
@@ -1095,18 +1132,20 @@ p {
     justify-content: center;
     gap: var(--spacing-sm);
     padding: var(--spacing-sm);
-    background: var(--white);
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 12px;
     box-shadow: var(--shadow-sm);
     transition: all var(--transition-base);
     text-decoration: none;
-    color: var(--charcoal);
+    color: var(--white);
     font-weight: 500;
 }
 
 .contact-item:hover {
     transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.25);
 }
 
 .contact-icon {
