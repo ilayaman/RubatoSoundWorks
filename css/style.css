@@ -257,10 +257,10 @@ p {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-mid), var(--gradient-end));
+    background: linear-gradient(135deg, rgba(214, 36, 34, 0.7), rgba(160, 29, 27, 0.8), rgba(120, 20, 20, 0.85));
     backdrop-filter: blur(12px);
-    box-shadow: 0 4px 16px rgba(214, 36, 34, 0.3);
-    transition: all var(--transition-base);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease;
 }
 
 .nav-container {
@@ -273,19 +273,19 @@ p {
 }
 
 .nav-logo {
-    background: rgba(255, 255, 255, 0.95);
+    background: #1A1A1A;
     padding: 0.75rem 1.5rem;
     border-radius: 12px;
     display: inline-flex;
     align-items: center;
     transition: all var(--transition-base);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 .nav-logo:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
-    background: var(--white);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+    background: #252525;
 }
 
 .nav-logo img {
@@ -1254,7 +1254,7 @@ p {
         left: -100%;
         width: 100%;
         height: calc(100vh - 60px);
-        background: linear-gradient(135deg, var(--gradient-start), var(--gradient-mid), var(--gradient-end));
+        background: linear-gradient(135deg, rgba(214, 36, 34, 0.95), rgba(160, 29, 27, 0.95), rgba(120, 20, 20, 0.95));
         backdrop-filter: blur(20px);
         flex-direction: column;
         padding: var(--spacing-lg);
