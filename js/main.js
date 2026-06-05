@@ -254,7 +254,7 @@ function initializeNavigation() {
     });
 
     // Floating vinyl scroll interaction
-    const floatingVinyl = document.getElementById('floatingVinyl');
+    const floatingVinyl = document.querySelector('.vinyl-full-circle');
     if (floatingVinyl) {
         window.addEventListener('scroll', () => {
             const scrollY = window.scrollY;
