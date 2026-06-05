@@ -11,7 +11,7 @@
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&f[]=zodiak@400,500,600,700,800,900&display=swap" rel="stylesheet">
     <!-- Astro Space font alternative -->
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css?v=13">
+    <link rel="stylesheet" href="css/style.css?v=14">
     <link rel="icon" href="content/images/logo_colour.png">
 </head>
 <body>
@@ -40,10 +40,53 @@
                 <div class="hero-cta" id="heroCta"></div>
             </div>
             <div class="hero-visual">
-                <div class="floating-card card-1"><div class="waveform"></div></div>
-                <div class="floating-card card-2"><div class="equalizer"><span></span><span></span><span></span><span></span><span></span></div></div>
-                <div class="floating-card card-3">
-                    <img src="content/images/Vinyl.png" alt="Vinyl" class="vinyl-image">
+                <div class="analog-mixer">
+                    <div class="mixer-channel">
+                        <div class="channel-label">CH 1</div>
+                        <div class="fader-container">
+                            <div class="fader-track"></div>
+                            <div class="fader-handle fader-1"></div>
+                        </div>
+                        <div class="knob knob-1"></div>
+                    </div>
+                    <div class="mixer-channel">
+                        <div class="channel-label">CH 2</div>
+                        <div class="fader-container">
+                            <div class="fader-track"></div>
+                            <div class="fader-handle fader-2"></div>
+                        </div>
+                        <div class="knob knob-2"></div>
+                    </div>
+                    <div class="mixer-channel">
+                        <div class="channel-label">CH 3</div>
+                        <div class="fader-container">
+                            <div class="fader-track"></div>
+                            <div class="fader-handle fader-3"></div>
+                        </div>
+                        <div class="knob knob-3"></div>
+                    </div>
+                    <div class="mixer-channel">
+                        <div class="channel-label">CH 4</div>
+                        <div class="fader-container">
+                            <div class="fader-track"></div>
+                            <div class="fader-handle fader-4"></div>
+                        </div>
+                        <div class="knob knob-4"></div>
+                    </div>
+                    <div class="mixer-vu-meters">
+                        <div class="vu-meter">
+                            <div class="vu-bar vu-1"></div>
+                        </div>
+                        <div class="vu-meter">
+                            <div class="vu-bar vu-2"></div>
+                        </div>
+                        <div class="vu-meter">
+                            <div class="vu-bar vu-3"></div>
+                        </div>
+                        <div class="vu-meter">
+                            <div class="vu-bar vu-4"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

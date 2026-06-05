@@ -542,112 +542,252 @@ p {
     border-color: rgba(214, 36, 34, 0.3);
 }
 
-.card-1 {
-    width: 280px;
-    height: 180px;
-    top: 10%;
-    left: 5%;
-    animation-delay: 0s;
-}
+/* ===================================
+   ANALOG MIXER - Professional Studio Equipment
+   =================================== */
 
-.card-2 {
-    width: 240px;
-    height: 240px;
-    top: 50%;
-    right: 10%;
-    animation-delay: 2s;
-}
-
-.card-3 {
-    width: 200px;
-    height: 200px;
-    bottom: 15%;
-    left: 25%;
-    animation-delay: 4s;
-}
-
-@keyframes float {
-    0%, 100% { transform: translateY(0) rotate(0deg); }
-    50% { transform: translateY(-20px) rotate(2deg); }
-}
-
-/* Waveform Animation - Enhanced for white background */
-.waveform {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-mid), var(--gradient-end));
-    border-radius: 16px;
+.analog-mixer {
+    background: linear-gradient(135deg, #2A2A2A, #1A1A1A);
+    border-radius: 24px;
+    padding: var(--spacing-lg);
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.5),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-md);
+    max-width: 600px;
     position: relative;
-    overflow: hidden;
-    box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(214, 36, 34, 0.2);
 }
 
-.waveform::before {
-    content: '';
-    position: absolute;
-    width: 200%;
-    height: 200%;
-    background: repeating-linear-gradient(
-        90deg,
-        transparent 0px,
-        rgba(255, 255, 255, 0.3) 2px,
-        transparent 4px,
-        transparent 8px
-    );
-    animation: wave 3s linear infinite;
-}
-
-.waveform::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: radial-gradient(circle at 30% 50%, rgba(255, 255, 255, 0.2), transparent);
-}
-
-@keyframes wave {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
-}
-
-/* Equalizer Animation */
-.equalizer {
+.mixer-channel {
     display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-sm);
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.channel-label {
+    color: rgba(214, 36, 34, 0.9);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.fader-container {
+    position: relative;
+    height: 180px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fader-track {
+    width: 4px;
     height: 100%;
-    gap: 12px;
-    padding: var(--spacing-md);
+    background: linear-gradient(180deg,
+        rgba(214, 36, 34, 0.3) 0%,
+        rgba(214, 36, 34, 0.6) 50%,
+        rgba(214, 36, 34, 0.3) 100%);
+    border-radius: 2px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.equalizer span {
-    flex: 1;
-    background: linear-gradient(180deg, var(--gradient-mid), var(--gradient-end));
+.fader-handle {
+    position: absolute;
+    width: 36px;
+    height: 20px;
+    background: linear-gradient(135deg, #E0E0E0, #B0B0B0);
+    border-radius: 4px;
+    box-shadow:
+        0 4px 8px rgba(0, 0, 0, 0.4),
+        inset 0 1px 0 rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.fader-handle::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 28px;
+    height: 2px;
+    background: #666;
+    border-radius: 1px;
+}
+
+.fader-1 {
+    animation: faderMove1 4s ease-in-out infinite;
+}
+
+.fader-2 {
+    animation: faderMove2 5s ease-in-out infinite;
+}
+
+.fader-3 {
+    animation: faderMove3 4.5s ease-in-out infinite;
+}
+
+.fader-4 {
+    animation: faderMove4 5.5s ease-in-out infinite;
+}
+
+@keyframes faderMove1 {
+    0%, 100% { top: 70%; }
+    50% { top: 30%; }
+}
+
+@keyframes faderMove2 {
+    0%, 100% { top: 40%; }
+    50% { top: 75%; }
+}
+
+@keyframes faderMove3 {
+    0%, 100% { top: 60%; }
+    50% { top: 25%; }
+}
+
+@keyframes faderMove4 {
+    0%, 100% { top: 35%; }
+    50% { top: 65%; }
+}
+
+.knob {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, #4A4A4A, #1A1A1A);
+    box-shadow:
+        0 4px 8px rgba(0, 0, 0, 0.4),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.5),
+        inset 0 2px 2px rgba(255, 255, 255, 0.1);
+    position: relative;
+}
+
+.knob::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3px;
+    height: 15px;
+    background: linear-gradient(180deg, var(--red-primary), #C41E1C);
+    border-radius: 2px;
+    box-shadow: 0 0 4px rgba(214, 36, 34, 0.8);
+}
+
+.knob-1 {
+    animation: rotate1 3s linear infinite;
+}
+
+.knob-2 {
+    animation: rotate2 4s linear infinite;
+}
+
+.knob-3 {
+    animation: rotate3 3.5s linear infinite;
+}
+
+.knob-4 {
+    animation: rotate4 4.5s linear infinite;
+}
+
+@keyframes rotate1 {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes rotate2 {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(-360deg); }
+}
+
+@keyframes rotate3 {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes rotate4 {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(-360deg); }
+}
+
+.mixer-vu-meters {
+    position: absolute;
+    bottom: var(--spacing-sm);
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
-    animation: equalize 1.2s ease-in-out infinite;
 }
 
-.equalizer span:nth-child(1) { animation-delay: 0s; }
-.equalizer span:nth-child(2) { animation-delay: 0.1s; }
-.equalizer span:nth-child(3) { animation-delay: 0.2s; }
-.equalizer span:nth-child(4) { animation-delay: 0.3s; }
-.equalizer span:nth-child(5) { animation-delay: 0.4s; }
+.vu-meter {
+    width: 6px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+}
 
-@keyframes equalize {
+.vu-bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(180deg,
+        var(--red-primary) 0%,
+        #FF7A27 50%,
+        #FFEB3B 100%);
+    border-radius: 3px;
+}
+
+.vu-1 {
+    animation: vuPulse1 1.5s ease-in-out infinite;
+}
+
+.vu-2 {
+    animation: vuPulse2 1.8s ease-in-out infinite;
+}
+
+.vu-3 {
+    animation: vuPulse3 1.6s ease-in-out infinite;
+}
+
+.vu-4 {
+    animation: vuPulse4 2s ease-in-out infinite;
+}
+
+@keyframes vuPulse1 {
     0%, 100% { height: 40%; }
+    50% { height: 85%; }
+}
+
+@keyframes vuPulse2 {
+    0%, 100% { height: 60%; }
     50% { height: 90%; }
 }
 
-/* Vinyl Image - Using actual Vinyl.png */
-.vinyl-image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    animation: spin 8s linear infinite;
-    filter: drop-shadow(0 8px 24px rgba(214, 36, 34, 0.4));
+@keyframes vuPulse3 {
+    0%, 100% { height: 50%; }
+    50% { height: 75%; }
 }
 
-@keyframes spin {
-    100% { transform: rotate(360deg); }
+@keyframes vuPulse4 {
+    0%, 100% { height: 45%; }
+    50% { height: 95%; }
 }
 
 /* ===================================
