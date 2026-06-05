@@ -257,14 +257,10 @@ p {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: rgba(255, 255, 255, 0.98);
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-mid), var(--gradient-end));
     backdrop-filter: blur(12px);
-    box-shadow: 0 2px 8px rgba(28, 25, 25, 0.08);
+    box-shadow: 0 4px 16px rgba(214, 36, 34, 0.3);
     transition: all var(--transition-base);
-    /* Red gradient accent at top */
-    border-top: 3px solid transparent;
-    border-image: linear-gradient(90deg, var(--gradient-start), var(--gradient-mid), var(--gradient-end));
-    border-image-slice: 1;
 }
 
 .nav-container {
@@ -277,19 +273,19 @@ p {
 }
 
 .nav-logo {
-    background: #1A1A1A;
+    background: rgba(255, 255, 255, 0.95);
     padding: 0.75rem 1.5rem;
     border-radius: 12px;
     display: inline-flex;
     align-items: center;
     transition: all var(--transition-base);
-    box-shadow: 0 4px 12px rgba(28, 25, 25, 0.15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .nav-logo:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(28, 25, 25, 0.2);
-    background: #252525;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    background: var(--white);
 }
 
 .nav-logo img {
@@ -307,7 +303,7 @@ p {
 .nav-link {
     font-size: 0.9375rem;
     font-weight: 600;
-    color: var(--charcoal);
+    color: var(--white);
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 8px;
@@ -317,17 +313,17 @@ p {
 
 .nav-link:hover,
 .nav-link.active {
-    color: var(--red-primary);
-    background: rgba(214, 36, 34, 0.08);
+    color: var(--white);
+    background: rgba(255, 255, 255, 0.2);
 }
 
 .nav-link-cta {
-    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-mid), var(--gradient-end));
+    background: rgba(255, 255, 255, 0.25);
     color: var(--white) !important;
     padding: 0.75rem 1.5rem;
     border-radius: 12px;
     font-weight: 700;
-    box-shadow: var(--shadow-red);
+    border: 2px solid rgba(255, 255, 255, 0.4);
     transition: all var(--transition-base);
     text-decoration: none;
     font-size: 0.9375rem;
@@ -335,7 +331,8 @@ p {
 
 .nav-link-cta:hover {
     transform: translateY(-2px);
-    box-shadow: 0 12px 40px rgba(214, 36, 34, 0.4);
+    background: rgba(255, 255, 255, 0.35);
+    border-color: var(--white);
 }
 
 .nav-toggle {
@@ -352,7 +349,7 @@ p {
     display: block;
     width: 28px;
     height: 3px;
-    background: var(--charcoal);
+    background: var(--white);
     border-radius: 2px;
     transition: all var(--transition-base);
 }
@@ -1257,7 +1254,7 @@ p {
         left: -100%;
         width: 100%;
         height: calc(100vh - 60px);
-        background: rgba(255, 255, 255, 0.98);
+        background: linear-gradient(135deg, var(--gradient-start), var(--gradient-mid), var(--gradient-end));
         backdrop-filter: blur(20px);
         flex-direction: column;
         padding: var(--spacing-lg);
@@ -1265,9 +1262,6 @@ p {
         transition: left var(--transition-base);
         box-shadow: var(--shadow-lg);
         align-items: stretch;
-        border-top: 3px solid transparent;
-        border-image: linear-gradient(90deg, var(--gradient-start), var(--gradient-mid), var(--gradient-end));
-        border-image-slice: 1;
     }
 
     .nav-menu.active {

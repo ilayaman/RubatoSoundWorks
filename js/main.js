@@ -241,13 +241,13 @@ function initializeNavigation() {
         });
     });
 
-    // Navbar shadow on scroll (light theme)
+    // Navbar shadow on scroll (gradient theme)
     window.addEventListener('scroll', () => {
         const nav = document.getElementById('nav');
         if (window.scrollY > 50) {
-            nav.style.boxShadow = '0 4px 16px rgba(28, 25, 25, 0.12)';
+            nav.style.boxShadow = '0 6px 20px rgba(214, 36, 34, 0.4)';
         } else {
-            nav.style.boxShadow = '0 2px 8px rgba(28, 25, 25, 0.08)';
+            nav.style.boxShadow = '0 4px 16px rgba(214, 36, 34, 0.3)';
         }
     });
 }
