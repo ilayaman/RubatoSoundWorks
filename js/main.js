@@ -252,6 +252,19 @@ function initializeNavigation() {
             nav.style.boxShadow = '0 4px 16px rgba(0, 0, 0, 0.3)';
         }
     });
+
+    // Floating vinyl scroll interaction
+    const floatingVinyl = document.getElementById('floatingVinyl');
+    if (floatingVinyl) {
+        window.addEventListener('scroll', () => {
+            const scrollY = window.scrollY;
+            const rotation = scrollY * 0.5; // Rotate based on scroll
+            const translateY = Math.sin(scrollY * 0.01) * 30; // Circular vertical motion
+            const translateX = Math.cos(scrollY * 0.01) * 30; // Circular horizontal motion
+
+            floatingVinyl.style.transform = `translate(${translateX}px, ${translateY}px) rotate(${rotation}deg)`;
+        });
+    }
 }
 
 // ===================================
