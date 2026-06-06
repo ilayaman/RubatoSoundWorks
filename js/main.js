@@ -252,6 +252,31 @@ function initializeNavigation() {
             nav.style.boxShadow = '0 4px 16px rgba(0, 0, 0, 0.3)';
         }
     });
+
+    // Scroll-based fade-in animations
+    const observerOptions = {
+        threshold: 0.15,
+        rootMargin: '0px 0px -100px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+
+                // Also animate child fade-in-items if they exist
+                const fadeItems = entry.target.querySelectorAll('.fade-in-item');
+                fadeItems.forEach(item => {
+                    item.classList.add('is-visible');
+                });
+            }
+        });
+    }, observerOptions);
+
+    // Observe all fade-in sections
+    document.querySelectorAll('.fade-in-section').forEach(section => {
+        observer.observe(section);
+    });
 }
 
 // ===================================
