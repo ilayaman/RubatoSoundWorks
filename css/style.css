@@ -543,7 +543,7 @@ p {
 }
 
 /* ===================================
-   HERO VISUAL - Animated Gradient Wave
+   HERO VISUAL - Animated Gradient Wave (Crisp Edges)
    =================================== */
 
 .hero-visual {
@@ -570,8 +570,40 @@ p {
     background-size: 200% 200%;
     -webkit-mask: url('../content/images/wave.png') center/contain no-repeat;
     mask: url('../content/images/wave.png') center/contain no-repeat;
+    -webkit-mask-composite: source-in;
+    mask-composite: intersect;
     animation: waveFloat 4s ease-in-out infinite, gradientShift 8s ease-in-out infinite;
     pointer-events: none;
+    filter: contrast(1.2) brightness(1.1);
+    /* Crisp edges */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+}
+
+/* Add sharp outline/border effect */
+.hero-visual::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    background: linear-gradient(135deg,
+        var(--red-primary) 0%,
+        #E33E78 30%,
+        #FF7A27 60%,
+        var(--red-primary) 100%);
+    background-size: 200% 200%;
+    -webkit-mask: url('../content/images/wave.png') center/contain no-repeat;
+    mask: url('../content/images/wave.png') center/contain no-repeat;
+    animation: waveFloat 4s ease-in-out infinite, gradientShift 8s ease-in-out infinite;
+    pointer-events: none;
+    filter: drop-shadow(0 0 2px rgba(214, 36, 34, 0.8))
+            drop-shadow(0 0 4px rgba(214, 36, 34, 0.6))
+            drop-shadow(0 0 1px rgba(255, 255, 255, 0.3));
+    z-index: -1;
 }
 
 @keyframes waveFloat {
