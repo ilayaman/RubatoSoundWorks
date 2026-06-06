@@ -543,25 +543,70 @@ p {
 }
 
 /* ===================================
-   HERO VISUAL - Wave Image
+   HERO VISUAL - Animated Gradient Wave
    =================================== */
 
 .hero-wave {
     width: 100%;
     max-width: 500px;
     height: auto;
-    filter: brightness(0) invert(1);
-    /* brightness(0) makes it black, invert(1) makes it white */
-    opacity: 0.9;
-    animation: waveFloat 4s ease-in-out infinite;
+    filter: brightness(0) saturate(100%) invert(1);
+    opacity: 1;
+    animation: waveFloat 4s ease-in-out infinite, wavePulse 3s ease-in-out infinite;
+    position: relative;
+}
+
+/* Apply gradient using pseudo-element mask */
+.hero-visual {
+    position: relative;
+}
+
+.hero-visual::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg,
+        var(--red-primary) 0%,
+        #E33E78 30%,
+        #FF7A27 60%,
+        var(--red-primary) 100%);
+    background-size: 200% 200%;
+    -webkit-mask: url('../content/images/wave.png') center/contain no-repeat;
+    mask: url('../content/images/wave.png') center/contain no-repeat;
+    animation: waveFloat 4s ease-in-out infinite, gradientShift 8s ease-in-out infinite;
+    pointer-events: none;
 }
 
 @keyframes waveFloat {
     0%, 100% {
-        transform: translateY(0px);
+        transform: translateY(0px) scale(1);
     }
     50% {
-        transform: translateY(-20px);
+        transform: translateY(-20px) scale(1.02);
+    }
+}
+
+@keyframes wavePulse {
+    0%, 100% {
+        opacity: 0.9;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
     }
 }
 
