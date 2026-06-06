@@ -546,28 +546,22 @@ p {
    HERO VISUAL - Animated Gradient Wave
    =================================== */
 
-.hero-wave {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    filter: brightness(0) saturate(100%) invert(1);
-    opacity: 1;
-    animation: waveFloat 4s ease-in-out infinite, wavePulse 3s ease-in-out infinite;
-    position: relative;
-}
-
-/* Apply gradient using pseudo-element mask */
 .hero-visual {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-visual::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
     background: linear-gradient(135deg,
         var(--red-primary) 0%,
         #E33E78 30%,
@@ -582,19 +576,10 @@ p {
 
 @keyframes waveFloat {
     0%, 100% {
-        transform: translateY(0px) scale(1);
+        transform: translate(-50%, -50%) translateY(0px) scale(1);
     }
     50% {
-        transform: translateY(-20px) scale(1.02);
-    }
-}
-
-@keyframes wavePulse {
-    0%, 100% {
-        opacity: 0.9;
-    }
-    50% {
-        opacity: 1;
+        transform: translate(-50%, -50%) translateY(-20px) scale(1.02);
     }
 }
 
