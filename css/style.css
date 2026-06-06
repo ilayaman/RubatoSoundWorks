@@ -543,11 +543,26 @@ p {
 }
 
 /* ===================================
-   HERO VISUAL - Blank for now
+   HERO VISUAL - Wave Image
    =================================== */
 
-.hero-visual {
-    /* Keeping blank - no floating elements */
+.hero-wave {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    filter: brightness(0) invert(1);
+    /* brightness(0) makes it black, invert(1) makes it white */
+    opacity: 0.9;
+    animation: waveFloat 4s ease-in-out infinite;
+}
+
+@keyframes waveFloat {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
 }
 
 /* ===================================
