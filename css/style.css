@@ -921,7 +921,148 @@ p {
     font-weight: 600;
 }
 
-/* Studio knobs and about-visual removed */
+/* ===================================
+   OUR STORY SECTION
+   =================================== */
+
+.our-story {
+    background: linear-gradient(135deg, #1A1A1A 0%, #0A0A0A 100%);
+    padding: var(--spacing-xl) 0;
+}
+
+.story-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.story-text {
+    text-align: left;
+}
+
+.story-text .label {
+    color: var(--red-primary);
+}
+
+.story-text h2 {
+    font-size: clamp(2.5rem, 4vw, 3.5rem);
+    color: var(--white);
+    margin-bottom: var(--spacing-lg);
+}
+
+.story-narrative {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.story-narrative p {
+    margin-bottom: var(--spacing-md);
+}
+
+.story-narrative strong {
+    color: var(--red-primary);
+    font-weight: 700;
+}
+
+.story-highlight {
+    background: linear-gradient(135deg, rgba(214, 36, 34, 0.1), rgba(214, 36, 34, 0.05));
+    border-left: 4px solid var(--red-primary);
+    padding: var(--spacing-md);
+    border-radius: 8px;
+    margin: var(--spacing-lg) 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--white);
+}
+
+/* ===================================
+   SERVICES PREVIEW (Home Page)
+   =================================== */
+
+.services-preview {
+    background: var(--charcoal);
+    padding: var(--spacing-xl) 0;
+}
+
+.services-preview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-lg);
+}
+
+.service-preview-card {
+    background: linear-gradient(135deg, rgba(214, 36, 34, 0.1), rgba(214, 36, 34, 0.05));
+    border: 2px solid rgba(214, 36, 34, 0.2);
+    border-radius: 16px;
+    padding: var(--spacing-lg);
+    transition: all var(--transition-base);
+}
+
+.service-preview-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--red-primary);
+    box-shadow: 0 20px 40px rgba(214, 36, 34, 0.3);
+}
+
+.service-preview-card h3 {
+    color: var(--white);
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.service-preview-card p {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+}
+
+.cta-center {
+    text-align: center;
+    margin-top: var(--spacing-xl);
+}
+
+/* ===================================
+   CTA SECTION
+   =================================== */
+
+.cta-section {
+    background: linear-gradient(135deg, var(--red-primary), #A01D1B);
+    padding: var(--spacing-xl) 0;
+    text-align: center;
+}
+
+.cta-content h2 {
+    color: var(--white);
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin-bottom: var(--spacing-md);
+}
+
+.cta-content p {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-lg);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: var(--spacing-md);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 2px solid var(--white);
+    color: var(--white);
+}
+
+.btn-secondary:hover {
+    background: var(--white);
+    color: var(--red-primary);
+}
 
 /* ===================================
    FOUNDERS SECTION
